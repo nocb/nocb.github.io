@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 授人以渔</title>
-    <link>https://www.qikqiak.com/post/</link>
+    <link>https://nocb.github.io/post/</link>
     <description>Recent content in Posts on 授人以渔</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.qikqiak.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nocb.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一年级 准备课和认识位置</title>
-      <link>https://www.qikqiak.com/post/g1-ready-position/</link>
+      <link>https://nocb.github.io/post/g1-ready-position/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-ready-position/</guid>
+      <guid>https://nocb.github.io/post/g1-ready-position/</guid>
       <description>&lt;p&gt;&lt;code&gt;关于本单元&lt;/code&gt;
 通过数数活动，初步了解数物品个数的基本方法。认识“上、下”“前、后”的基本含义并会用来描述物品的位置。
-&lt;a href=&#34;https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://nocb.github.io/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一年级 10以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/g1-one-to-ten-add/</link>
+      <link>https://nocb.github.io/post/g1-one-to-ten-add/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-one-to-ten-add/</guid>
+      <guid>https://nocb.github.io/post/g1-one-to-ten-add/</guid>
       <description>&lt;h2 id=&#34;本单元你能学到&#34;&gt;本单元你能学到&lt;/h2&gt;
 
 &lt;p&gt;认识10以内的数，学会10以内数的加减法并解决问题&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>一年级 10以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/g1-one-to-ten-add/</link>
+      <link>https://nocb.github.io/post/g1-one-to-ten-add/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-one-to-ten-add/</guid>
+      <guid>https://nocb.github.io/post/g1-one-to-ten-add/</guid>
       <description>&lt;h2 id=&#34;本单元你能学到&#34;&gt;本单元你能学到&lt;/h2&gt;
 
 &lt;p&gt;认识10以内的数，学会10以内数的加减法并解决问题&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>一年级(23)-- 20以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/mysecond/</link>
+      <link>https://nocb.github.io/post/mysecond/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/mysecond/</guid>
+      <guid>https://nocb.github.io/post/mysecond/</guid>
       <description>&lt;p&gt;&lt;code&gt;Docker&lt;/code&gt;官方关于&lt;code&gt;Dockerfile&lt;/code&gt;最佳实践原文链接地址：&lt;a href=&#34;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&#34;&gt;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Docker&lt;/code&gt;可以通过从&lt;code&gt;Dockerfile&lt;/code&gt;包含所有命令的文本文件中读取指令自动构建镜像，以便构建给定镜像。&lt;/p&gt;
@@ -61,43 +61,43 @@
     
     <item>
       <title>Kubernetes 工作流引擎：Argo（1）</title>
-      <link>https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/</link>
+      <link>https://nocb.github.io/post/argo-workflow-engine-for-k8s/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/</guid>
+      <guid>https://nocb.github.io/post/argo-workflow-engine-for-k8s/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://applatix.com/open-source/argo/&#34;&gt;Argo&lt;/a&gt; 是 &lt;a href=&#34;https://applatix.com/&#34;&gt;Applatix&lt;/a&gt; 推出的一个开源项目，为 Kubernetes 提供 container-native（工作流中的每个步骤是通过容器实现）工作流程。Argo 可以让用户用一个类似于传统的 YAML 文件定义的 DSL 来运行多个步骤的 Pipeline。该框架提供了复杂的循环、条件判断、依赖管理等功能，这有助于提高部署应用程序的灵活性以及配置和依赖的灵活性。使用 Argo，用户可以定义复杂的依赖关系，以编程方式构建复杂的工作流、制品管理，可以将任何步骤的输出结果作为输入链接到后续的步骤中去，并且可以在可视化 UI 界面中监控调度的作业任务。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://nocb.github.io/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Kubernetes Operator 快速入门教程</title>
-      <link>https://www.qikqiak.com/post/k8s-operator-101/</link>
+      <link>https://nocb.github.io/post/k8s-operator-101/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/k8s-operator-101/</guid>
-      <description>&lt;p&gt;在 Kubernetes 的监控方案中我们经常会使用到一个&lt;a href=&#34;https://www.qikqiak.com/tags/operator/&#34;&gt;Promethues Operator&lt;/a&gt;的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：&lt;a href=&#34;https://github.com/operator-framework&#34;&gt;Operator Framework&lt;/a&gt;，该工具可以让开发人员更加容易的开发 Operator 应用。&lt;/p&gt;
+      <guid>https://nocb.github.io/post/k8s-operator-101/</guid>
+      <description>&lt;p&gt;在 Kubernetes 的监控方案中我们经常会使用到一个&lt;a href=&#34;https://nocb.github.io/tags/operator/&#34;&gt;Promethues Operator&lt;/a&gt;的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：&lt;a href=&#34;https://github.com/operator-framework&#34;&gt;Operator Framework&lt;/a&gt;，该工具可以让开发人员更加容易的开发 Operator 应用。&lt;/p&gt;
 
 &lt;p&gt;在本篇文章中我们会为大家介绍一个简单示例来演示如何使用 Operator Framework 框架来开发一个 Operator 应用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Kubernetes CKA 实训免费视频课程</title>
-      <link>https://www.qikqiak.com/post/k8s-cka-course/</link>
+      <link>https://nocb.github.io/post/k8s-cka-course/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/k8s-cka-course/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.qikqiak.com/post/k8s-cka-course/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/kqPNDq.jpg&#34; alt=&#34;cka&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>https://nocb.github.io/post/k8s-cka-course/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://nocb.github.io/post/k8s-cka-course/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/kqPNDq.jpg&#34; alt=&#34;cka&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;本系列课程参考 CKA (Certificted Kubernetes Administrator) 知识体系进行课程设计，并结合华为在 kubernetes 项目推广过程中的实践经验，理论+实践让用户快速掌握kubernetes的使用和维护技能。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Django2.0 实战项目</title>
-      <link>https://www.qikqiak.com/post/django20-practice-project-course/</link>
+      <link>https://nocb.github.io/post/django20-practice-project-course/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/django20-practice-project-course/</guid>
+      <guid>https://nocb.github.io/post/django20-practice-project-course/</guid>
       <description>&lt;p&gt;在本课程中，你将学习如何使用&lt;code&gt;Django2.0&lt;/code&gt;快速开发一个&lt;code&gt;WEB 应用&lt;/code&gt;，了解到在实际开发过程中关于&lt;code&gt;Django&lt;/code&gt;的一些最佳实践技巧，学习到&lt;code&gt;Django2.0&lt;/code&gt;与&lt;code&gt;1.x&lt;/code&gt;版本的一些异同点以及优势。无论你之前是否学习过 Django 应用框架，通过本课程你都将能够很快速的掌握 Django 的使用。&lt;/p&gt;
 
 &lt;p&gt;课程链接地址：&lt;a href=&#34;https://www.haimaxy.com/course/m12jop/?utm_source=blog&#34;&gt;https://www.haimaxy.com/course/m12jop/&lt;/a&gt;&lt;/p&gt;</description>
@@ -105,19 +105,19 @@
     
     <item>
       <title>Django 中STATIC_ROOT 与STATICFILES_DIRS的区别</title>
-      <link>https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/</link>
+      <link>https://nocb.github.io/post/django-staticroot-staticfilesdirs-function/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/</guid>
+      <guid>https://nocb.github.io/post/django-staticroot-staticfilesdirs-function/</guid>
       <description>&lt;p&gt;在做&lt;code&gt;Django&lt;/code&gt;项目的时候，经常会遇到静态文件访问的问题，在本地开发的时候可以正常的访问静态文件，部署到服务器上后就出现各种幺蛾子了，我猜你一定也遇到过吧？之前在&lt;code&gt;settings.py&lt;/code&gt;配置文件中对&lt;code&gt;STATIC_ROOT&lt;/code&gt;与&lt;code&gt;STATICFILES_DIRS&lt;/code&gt;两个配置项不是特别理解，总感觉都差不多，在线上就把&lt;code&gt;STATIC_ROOT&lt;/code&gt;替换成&lt;code&gt;STATICFILES_DIRS&lt;/code&gt;了，虽然可以解决问题，但是却没有知其所以然。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nginx中如何设置301跳转</title>
-      <link>https://www.qikqiak.com/post/nginx-301-redirect/</link>
+      <link>https://nocb.github.io/post/nginx-301-redirect/</link>
       <pubDate>Sat, 27 Feb 2016 21:21:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/nginx-301-redirect/</guid>
+      <guid>https://nocb.github.io/post/nginx-301-redirect/</guid>
       <description>&lt;p&gt;网站中带&lt;code&gt;www&lt;/code&gt;和不带都可以访问，但是这样却会不利于网站&lt;code&gt;SEO&lt;/code&gt;的，会分权，所以需要将二者的访问合并到一起，这特别在网站架设之初就应该好好规划。&lt;/p&gt;
 
 &lt;p&gt;有很多的第三方DNS解析服务，提供了直接的显示跳转的服务，比如&lt;code&gt;dnspod&lt;/code&gt;，但是最近我在使用的过程中发现该服务非常的不稳定，导致网站经常性的访问不了。所以就打算自己来做，方法很简单，就是&lt;code&gt;301跳转&lt;/code&gt;，&lt;strong&gt;301是永久跳转&lt;/strong&gt;，&lt;strong&gt;302是临时性跳转&lt;/strong&gt;。&lt;/p&gt;</description>
@@ -125,10 +125,10 @@
     
     <item>
       <title>Memcached的一些坑!!!</title>
-      <link>https://www.qikqiak.com/post/some-pits-of-memcached/</link>
+      <link>https://nocb.github.io/post/some-pits-of-memcached/</link>
       <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/some-pits-of-memcached/</guid>
+      <guid>https://nocb.github.io/post/some-pits-of-memcached/</guid>
       <description>&lt;p&gt;我们的网站用&lt;code&gt;django&lt;/code&gt;跑了很久了，一直没出现什么大的问题，突然一天晚上网站访问超级慢，出现大量的&lt;code&gt;502&lt;/code&gt;错误码，难不成用户量猛增么，要是这样就好了。请教了很多运维高手帮忙排查问题、代码也回滚到上一个正常运行的版本了，但依然负载一会高一会低。&lt;/p&gt;
 
 &lt;blockquote&gt;

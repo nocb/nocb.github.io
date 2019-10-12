@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>授人以渔</title>
-    <link>https://www.qikqiak.com/</link>
+    <link>https://nocb.github.io/</link>
     <description>Recent content on 授人以渔</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Oct 2019 11:08:51 +0800</lastBuildDate>
     
-	<atom:link href="https://www.qikqiak.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nocb.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一年级 准备课和认识位置</title>
-      <link>https://www.qikqiak.com/post/g1-ready-position/</link>
+      <link>https://nocb.github.io/post/g1-ready-position/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-ready-position/</guid>
+      <guid>https://nocb.github.io/post/g1-ready-position/</guid>
       <description>&lt;p&gt;&lt;code&gt;关于本单元&lt;/code&gt;
 通过数数活动，初步了解数物品个数的基本方法。认识“上、下”“前、后”的基本含义并会用来描述物品的位置。
-&lt;a href=&#34;https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://nocb.github.io/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>重视编程教育,学习如何思考</title>
-      <link>https://www.qikqiak.com/education/program-education/</link>
+      <link>https://nocb.github.io/education/program-education/</link>
       <pubDate>Wed, 09 Oct 2019 11:08:51 +0800</pubDate>
       
-      <guid>https://www.qikqiak.com/education/program-education/</guid>
+      <guid>https://nocb.github.io/education/program-education/</guid>
       <description>&lt;h2 id=&#34;众科技巨头呼吁重视编程教育&#34;&gt;众科技巨头呼吁重视编程教育&lt;/h2&gt;
 
 &lt;p&gt;众科技巨头的明星企业家，呼吁学校重视并鼓励学生学习计算机编程，解决美国严重的工程师短缺问题。
@@ -39,10 +39,10 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
     
     <item>
       <title>一年级 10以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/g1-one-to-ten-add/</link>
+      <link>https://nocb.github.io/post/g1-one-to-ten-add/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-one-to-ten-add/</guid>
+      <guid>https://nocb.github.io/post/g1-one-to-ten-add/</guid>
       <description>&lt;h2 id=&#34;本单元你能学到&#34;&gt;本单元你能学到&lt;/h2&gt;
 
 &lt;p&gt;认识10以内的数，学会10以内数的加减法并解决问题&lt;/p&gt;</description>
@@ -50,10 +50,10 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
     
     <item>
       <title>一年级 10以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/g1-one-to-ten-add/</link>
+      <link>https://nocb.github.io/post/g1-one-to-ten-add/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-one-to-ten-add/</guid>
+      <guid>https://nocb.github.io/post/g1-one-to-ten-add/</guid>
       <description>&lt;h2 id=&#34;本单元你能学到&#34;&gt;本单元你能学到&lt;/h2&gt;
 
 &lt;p&gt;认识10以内的数，学会10以内数的加减法并解决问题&lt;/p&gt;</description>
@@ -61,10 +61,10 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
     
     <item>
       <title>一年级(23)-- 20以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/mysecond/</link>
+      <link>https://nocb.github.io/post/mysecond/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/mysecond/</guid>
+      <guid>https://nocb.github.io/post/mysecond/</guid>
       <description>&lt;p&gt;&lt;code&gt;Docker&lt;/code&gt;官方关于&lt;code&gt;Dockerfile&lt;/code&gt;最佳实践原文链接地址：&lt;a href=&#34;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&#34;&gt;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Docker&lt;/code&gt;可以通过从&lt;code&gt;Dockerfile&lt;/code&gt;包含所有命令的文本文件中读取指令自动构建镜像，以便构建给定镜像。&lt;/p&gt;
@@ -76,43 +76,43 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
     
     <item>
       <title>Kubernetes 工作流引擎：Argo（1）</title>
-      <link>https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/</link>
+      <link>https://nocb.github.io/post/argo-workflow-engine-for-k8s/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/</guid>
+      <guid>https://nocb.github.io/post/argo-workflow-engine-for-k8s/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://applatix.com/open-source/argo/&#34;&gt;Argo&lt;/a&gt; 是 &lt;a href=&#34;https://applatix.com/&#34;&gt;Applatix&lt;/a&gt; 推出的一个开源项目，为 Kubernetes 提供 container-native（工作流中的每个步骤是通过容器实现）工作流程。Argo 可以让用户用一个类似于传统的 YAML 文件定义的 DSL 来运行多个步骤的 Pipeline。该框架提供了复杂的循环、条件判断、依赖管理等功能，这有助于提高部署应用程序的灵活性以及配置和依赖的灵活性。使用 Argo，用户可以定义复杂的依赖关系，以编程方式构建复杂的工作流、制品管理，可以将任何步骤的输出结果作为输入链接到后续的步骤中去，并且可以在可视化 UI 界面中监控调度的作业任务。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;https://nocb.github.io/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Kubernetes Operator 快速入门教程</title>
-      <link>https://www.qikqiak.com/post/k8s-operator-101/</link>
+      <link>https://nocb.github.io/post/k8s-operator-101/</link>
       <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/k8s-operator-101/</guid>
-      <description>&lt;p&gt;在 Kubernetes 的监控方案中我们经常会使用到一个&lt;a href=&#34;https://www.qikqiak.com/tags/operator/&#34;&gt;Promethues Operator&lt;/a&gt;的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：&lt;a href=&#34;https://github.com/operator-framework&#34;&gt;Operator Framework&lt;/a&gt;，该工具可以让开发人员更加容易的开发 Operator 应用。&lt;/p&gt;
+      <guid>https://nocb.github.io/post/k8s-operator-101/</guid>
+      <description>&lt;p&gt;在 Kubernetes 的监控方案中我们经常会使用到一个&lt;a href=&#34;https://nocb.github.io/tags/operator/&#34;&gt;Promethues Operator&lt;/a&gt;的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：&lt;a href=&#34;https://github.com/operator-framework&#34;&gt;Operator Framework&lt;/a&gt;，该工具可以让开发人员更加容易的开发 Operator 应用。&lt;/p&gt;
 
 &lt;p&gt;在本篇文章中我们会为大家介绍一个简单示例来演示如何使用 Operator Framework 框架来开发一个 Operator 应用。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Kubernetes CKA 实训免费视频课程</title>
-      <link>https://www.qikqiak.com/post/k8s-cka-course/</link>
+      <link>https://nocb.github.io/post/k8s-cka-course/</link>
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/k8s-cka-course/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.qikqiak.com/post/k8s-cka-course/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/kqPNDq.jpg&#34; alt=&#34;cka&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+      <guid>https://nocb.github.io/post/k8s-cka-course/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://nocb.github.io/post/k8s-cka-course/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/kqPNDq.jpg&#34; alt=&#34;cka&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;本系列课程参考 CKA (Certificted Kubernetes Administrator) 知识体系进行课程设计，并结合华为在 kubernetes 项目推广过程中的实践经验，理论+实践让用户快速掌握kubernetes的使用和维护技能。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Django2.0 实战项目</title>
-      <link>https://www.qikqiak.com/post/django20-practice-project-course/</link>
+      <link>https://nocb.github.io/post/django20-practice-project-course/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/django20-practice-project-course/</guid>
+      <guid>https://nocb.github.io/post/django20-practice-project-course/</guid>
       <description>&lt;p&gt;在本课程中，你将学习如何使用&lt;code&gt;Django2.0&lt;/code&gt;快速开发一个&lt;code&gt;WEB 应用&lt;/code&gt;，了解到在实际开发过程中关于&lt;code&gt;Django&lt;/code&gt;的一些最佳实践技巧，学习到&lt;code&gt;Django2.0&lt;/code&gt;与&lt;code&gt;1.x&lt;/code&gt;版本的一些异同点以及优势。无论你之前是否学习过 Django 应用框架，通过本课程你都将能够很快速的掌握 Django 的使用。&lt;/p&gt;
 
 &lt;p&gt;课程链接地址：&lt;a href=&#34;https://www.haimaxy.com/course/m12jop/?utm_source=blog&#34;&gt;https://www.haimaxy.com/course/m12jop/&lt;/a&gt;&lt;/p&gt;</description>
@@ -120,19 +120,19 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
     
     <item>
       <title>Django 中STATIC_ROOT 与STATICFILES_DIRS的区别</title>
-      <link>https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/</link>
+      <link>https://nocb.github.io/post/django-staticroot-staticfilesdirs-function/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/</guid>
+      <guid>https://nocb.github.io/post/django-staticroot-staticfilesdirs-function/</guid>
       <description>&lt;p&gt;在做&lt;code&gt;Django&lt;/code&gt;项目的时候，经常会遇到静态文件访问的问题，在本地开发的时候可以正常的访问静态文件，部署到服务器上后就出现各种幺蛾子了，我猜你一定也遇到过吧？之前在&lt;code&gt;settings.py&lt;/code&gt;配置文件中对&lt;code&gt;STATIC_ROOT&lt;/code&gt;与&lt;code&gt;STATICFILES_DIRS&lt;/code&gt;两个配置项不是特别理解，总感觉都差不多，在线上就把&lt;code&gt;STATIC_ROOT&lt;/code&gt;替换成&lt;code&gt;STATICFILES_DIRS&lt;/code&gt;了，虽然可以解决问题，但是却没有知其所以然。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Nginx中如何设置301跳转</title>
-      <link>https://www.qikqiak.com/post/nginx-301-redirect/</link>
+      <link>https://nocb.github.io/post/nginx-301-redirect/</link>
       <pubDate>Sat, 27 Feb 2016 21:21:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/nginx-301-redirect/</guid>
+      <guid>https://nocb.github.io/post/nginx-301-redirect/</guid>
       <description>&lt;p&gt;网站中带&lt;code&gt;www&lt;/code&gt;和不带都可以访问，但是这样却会不利于网站&lt;code&gt;SEO&lt;/code&gt;的，会分权，所以需要将二者的访问合并到一起，这特别在网站架设之初就应该好好规划。&lt;/p&gt;
 
 &lt;p&gt;有很多的第三方DNS解析服务，提供了直接的显示跳转的服务，比如&lt;code&gt;dnspod&lt;/code&gt;，但是最近我在使用的过程中发现该服务非常的不稳定，导致网站经常性的访问不了。所以就打算自己来做，方法很简单，就是&lt;code&gt;301跳转&lt;/code&gt;，&lt;strong&gt;301是永久跳转&lt;/strong&gt;，&lt;strong&gt;302是临时性跳转&lt;/strong&gt;。&lt;/p&gt;</description>
@@ -140,10 +140,10 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
     
     <item>
       <title>Memcached的一些坑!!!</title>
-      <link>https://www.qikqiak.com/post/some-pits-of-memcached/</link>
+      <link>https://nocb.github.io/post/some-pits-of-memcached/</link>
       <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/some-pits-of-memcached/</guid>
+      <guid>https://nocb.github.io/post/some-pits-of-memcached/</guid>
       <description>&lt;p&gt;我们的网站用&lt;code&gt;django&lt;/code&gt;跑了很久了，一直没出现什么大的问题，突然一天晚上网站访问超级慢，出现大量的&lt;code&gt;502&lt;/code&gt;错误码，难不成用户量猛增么，要是这样就好了。请教了很多运维高手帮忙排查问题、代码也回滚到上一个正常运行的版本了，但依然负载一会高一会低。&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -153,48 +153,48 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
     
     <item>
       <title>About me</title>
-      <link>https://www.qikqiak.com/page/about/</link>
+      <link>https://nocb.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/page/about/</guid>
+      <guid>https://nocb.github.io/page/about/</guid>
       <description>Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and Determination alone are omnipotent. The slogan “Press On” has solved and will always solve the problems of the human race.</description>
     </item>
     
     <item>
       <title>Archive</title>
-      <link>https://www.qikqiak.com/page/archive/</link>
+      <link>https://nocb.github.io/page/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/page/archive/</guid>
+      <guid>https://nocb.github.io/page/archive/</guid>
       <description>关注容器、kubernetes、devops、python、golang、微服务等技术。
  Kubernetes/Docker  Traefik 2.0 正式版发布 Helm V2 迁移到 V3 版本 Kubernetes Pod 安全策略(PSP)配置 Kubernetes 工作流引擎：Argo Traefik 团队开源的轻量级 Service Mesh 工具 Maesh VMWare 开源的 Kubernetes Dashboard 工具 Octant 使用 kubeadm 搭建 v1.15.3 版本 Kubernetes 集群 使用 GitHub Actions 自动化构建 Golang 应用 使用 Kustomize 配置 Kubernetes 应用 在现有 Kubernetes 集群上安装 KubeSphere 基于 Drone 的 CI/CD（三） 基于 Drone 的 CI/CD（二） 基于 Drone 的 CI/CD（一） 提高 kubectl 使用生产力 使用Elasticsearch Operator快速部署Elasticsearch集群 通过 GitHub OAuth 和 Dex 访问 Kubernetes 集群 使用 Configuration-As-Code 运行 Jenkins 深入理解 Kubernetes Admission Webhook Kubernetes Operator 快速入门教程 Metrics Server 安装 使用 kubeadm 更新 kubernetes 集群 Kubelet 状态更新机制 Groovy 简明教程 基于 Jenkins、Gitlab、Harbor、Helm 和 Kubernetes 的 CI/CD(二) Helm Chart 模板开发技巧 Kubernetes 网络故障常见排查方法 如何保护对外暴露的 Kubernetes 服务 nginx ingress 的安装使用 基于 Jenkins、Gitlab、Harbor、Helm 和 Kubernetes 的 CI/CD(一) 《深入浅出Prometheus》 Gitlab CI 与 Kubernetes 的结合 在 Kubernetes 上安装 Gitlab CI Runner 在 Kubernetes 上安装 Gitlab Harbor 快速安装使用 Harbor 源码浅析 Kubernetes 部署策略详解 Helm monitor 插件(附视频) Istio 实训免费视频课程 在 Kubernetes 上搭建 EFK 日志收集系统 Kubernetes CKA 实训视频课程 办公环境下 kubernetes 网络互通方案 Prometheus 删除数据指标 kubernetes 日志架构 Prometheus Operator 高级配置 Prometheus Operator 自定义报警 Prometheus Operator 监控 etcd 集群 Grafana 日志聚合工具 Loki Prometheus Operator 初体验 Docker 镜像分析工具 Dive(附视频) Kubernetes API 资源使用 Kubernetes Ingress 自动化 HTTPS 360 开源 K8S Dashboard Wayne 的安装使用 Grafana 在 Kubernetes 中的使用 Kubernetes 节点监控 Kubernetes 应用监控 重新理解 kubernetes 亲和性调度 Kubernetes 调度器介绍 Helm Hooks 的使用 Helm 命名模板的使用 Dockerfile 最佳实践 Kubernetes 服务质量 Qos Helm 的基本使用 华为 CloudNativeLives K8S 系列课程 外部服务发现之 ingress(二) 如何学习Kubernetes？ ipvs 基本介绍 kubernetes 如何发音？ 外部服务发现之 ingress(一) 集群内部服务发现之 DNS 基于 Jenkins 的 CI/CD(三) 基于 Jenkins 的 CI/CD(二) 基于 Jenkins 的 CI/CD(一) Pod 中挂载单个文件的方法 kubernetes 持久化存储(二) kubernetes 持久化存储(一) Kubernetes RBAC 详解 Secret 的使用方法 Service 的使用方法 Job 和 CronJob 的使用方法 RC、RS 使用方法 初始化容器 Kubernetes Pod 工作流 使用kubeadm搭建kubernetes1.</description>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>https://www.qikqiak.com/page/kubernetes.io/</link>
+      <link>https://nocb.github.io/page/kubernetes.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/page/kubernetes.io/</guid>
+      <guid>https://nocb.github.io/page/kubernetes.io/</guid>
       <description>Kubernetes 是用于自动部署，扩展和管理容器化应用程序的开源系统。 它将组成应用程序的容器组合成逻辑单元，以便于管理和服务发现，Kubernetes 构建在 Google 15 年生产环境经验基础之上，并结合来自社区的最佳创意和实践。
 Kubernetes 特性1  全球规模：基于允许 Google 每周运行数十亿个容器的原则进行设计，Kubernetes 可以在不增加您的运维团队的情况下进行弹性扩展。 永不过时：无论您应用运行在本地还是运行于全球任何地域，Kubernetes 的灵活性都可以随着您的需求复杂度不断增加，还可以持续、轻松地对外提供服务。 随处运行：Kubernetes 是开源的，可以让您自由地部署在企业内部，私有云、混合云或公有云基础架构，使您轻松将应用迁移至任何位置。  Kubernetes 特性2  自动包装：根据资源需求和其他约束自动放置容器，同时不会牺牲可用性，混合关键和最大努力的工作负载，以提高资源利用率并节省更多资源。 自我修复：重新启动失败的容器，在节点不可用时，替换和重新调度节点上的容器，对用户定义的健康检查不响应的容器会被中止，并且在容器准备好服务之前不会把其向客户端广播。 横向缩放：使用简单的命令或 UI，或者根据 CPU 的使用情况自动调整应用程序副本数。 服务发现和负载均衡：不需要修改您的应用程序来使用不熟悉的服务发现机制，Kubernetes 为容器提供了自己的 IP 地址和一组容器的单个 DNS 名称，并可以在它们之间进行负载均衡。</description>
     </item>
     
     <item>
       <title>Kubernetes中文社区</title>
-      <link>https://www.qikqiak.com/page/kubernetes.org.cn/</link>
+      <link>https://nocb.github.io/page/kubernetes.org.cn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/page/kubernetes.org.cn/</guid>
+      <guid>https://nocb.github.io/page/kubernetes.org.cn/</guid>
       <description>Kubernetes中文社区 www.kubernetes.org.cn 致力于让K8S技术人员便捷地获取信息，掌握K8S相关知识。推崇开源理念，推广K8S开源项目。</description>
     </item>
     
     <item>
       <title>友情链接</title>
-      <link>https://www.qikqiak.com/page/friend/</link>
+      <link>https://nocb.github.io/page/friend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/page/friend/</guid>
+      <guid>https://nocb.github.io/page/friend/</guid>
       <description> 阳明的一些朋友  JACK LEE Ryan Yang Jimmy Song Roc RECALL&amp;rsquo;s Blog devopser sealyun wujunze (王丽兵)开发笔记  </description>
     </item>
     

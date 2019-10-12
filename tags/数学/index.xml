@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>数学 on 授人以渔</title>
-    <link>https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/</link>
+    <link>https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
     <description>Recent content in 数学 on 授人以渔</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>一年级 准备课和认识位置</title>
-      <link>https://www.qikqiak.com/post/g1-ready-position/</link>
+      <link>https://nocb.github.io/post/g1-ready-position/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-ready-position/</guid>
+      <guid>https://nocb.github.io/post/g1-ready-position/</guid>
       <description>&lt;p&gt;&lt;code&gt;关于本单元&lt;/code&gt;
 通过数数活动，初步了解数物品个数的基本方法。认识“上、下”“前、后”的基本含义并会用来描述物品的位置。
-&lt;a href=&#34;https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;a href=&#34;https://nocb.github.io/post/argo-workflow-engine-for-k8s/&#34;&gt;&lt;img src=&#34;https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png&#34; alt=&#34;Argo&#34; /&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>一年级 10以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/g1-one-to-ten-add/</link>
+      <link>https://nocb.github.io/post/g1-one-to-ten-add/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-one-to-ten-add/</guid>
+      <guid>https://nocb.github.io/post/g1-one-to-ten-add/</guid>
       <description>&lt;h2 id=&#34;本单元你能学到&#34;&gt;本单元你能学到&lt;/h2&gt;
 
 &lt;p&gt;认识10以内的数，学会10以内数的加减法并解决问题&lt;/p&gt;</description>
@@ -35,10 +35,10 @@
     
     <item>
       <title>一年级 10以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/g1-one-to-ten-add/</link>
+      <link>https://nocb.github.io/post/g1-one-to-ten-add/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/g1-one-to-ten-add/</guid>
+      <guid>https://nocb.github.io/post/g1-one-to-ten-add/</guid>
       <description>&lt;h2 id=&#34;本单元你能学到&#34;&gt;本单元你能学到&lt;/h2&gt;
 
 &lt;p&gt;认识10以内的数，学会10以内数的加减法并解决问题&lt;/p&gt;</description>
@@ -46,10 +46,10 @@
     
     <item>
       <title>一年级(23)-- 20以内数的认识及加减法</title>
-      <link>https://www.qikqiak.com/post/mysecond/</link>
+      <link>https://nocb.github.io/post/mysecond/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/mysecond/</guid>
+      <guid>https://nocb.github.io/post/mysecond/</guid>
       <description>&lt;p&gt;&lt;code&gt;Docker&lt;/code&gt;官方关于&lt;code&gt;Dockerfile&lt;/code&gt;最佳实践原文链接地址：&lt;a href=&#34;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&#34;&gt;https://docs.docker.com/develop/develop-images/dockerfile_best-practices/&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;Docker&lt;/code&gt;可以通过从&lt;code&gt;Dockerfile&lt;/code&gt;包含所有命令的文本文件中读取指令自动构建镜像，以便构建给定镜像。&lt;/p&gt;

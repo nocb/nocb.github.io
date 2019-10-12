@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>django on 授人以渔</title>
-    <link>https://www.qikqiak.com/tags/django/</link>
+    <link>https://nocb.github.io/tags/django/</link>
     <description>Recent content in django on 授人以渔</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.qikqiak.com/tags/django/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nocb.github.io/tags/django/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Django2.0 实战项目</title>
-      <link>https://www.qikqiak.com/post/django20-practice-project-course/</link>
+      <link>https://nocb.github.io/post/django20-practice-project-course/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/django20-practice-project-course/</guid>
+      <guid>https://nocb.github.io/post/django20-practice-project-course/</guid>
       <description>&lt;p&gt;在本课程中，你将学习如何使用&lt;code&gt;Django2.0&lt;/code&gt;快速开发一个&lt;code&gt;WEB 应用&lt;/code&gt;，了解到在实际开发过程中关于&lt;code&gt;Django&lt;/code&gt;的一些最佳实践技巧，学习到&lt;code&gt;Django2.0&lt;/code&gt;与&lt;code&gt;1.x&lt;/code&gt;版本的一些异同点以及优势。无论你之前是否学习过 Django 应用框架，通过本课程你都将能够很快速的掌握 Django 的使用。&lt;/p&gt;
 
 &lt;p&gt;课程链接地址：&lt;a href=&#34;https://www.haimaxy.com/course/m12jop/?utm_source=blog&#34;&gt;https://www.haimaxy.com/course/m12jop/&lt;/a&gt;&lt;/p&gt;</description>
@@ -24,19 +24,19 @@
     
     <item>
       <title>Django 中STATIC_ROOT 与STATICFILES_DIRS的区别</title>
-      <link>https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/</link>
+      <link>https://nocb.github.io/post/django-staticroot-staticfilesdirs-function/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/</guid>
+      <guid>https://nocb.github.io/post/django-staticroot-staticfilesdirs-function/</guid>
       <description>&lt;p&gt;在做&lt;code&gt;Django&lt;/code&gt;项目的时候，经常会遇到静态文件访问的问题，在本地开发的时候可以正常的访问静态文件，部署到服务器上后就出现各种幺蛾子了，我猜你一定也遇到过吧？之前在&lt;code&gt;settings.py&lt;/code&gt;配置文件中对&lt;code&gt;STATIC_ROOT&lt;/code&gt;与&lt;code&gt;STATICFILES_DIRS&lt;/code&gt;两个配置项不是特别理解，总感觉都差不多，在线上就把&lt;code&gt;STATIC_ROOT&lt;/code&gt;替换成&lt;code&gt;STATICFILES_DIRS&lt;/code&gt;了，虽然可以解决问题，但是却没有知其所以然。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Memcached的一些坑!!!</title>
-      <link>https://www.qikqiak.com/post/some-pits-of-memcached/</link>
+      <link>https://nocb.github.io/post/some-pits-of-memcached/</link>
       <pubDate>Wed, 28 May 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://www.qikqiak.com/post/some-pits-of-memcached/</guid>
+      <guid>https://nocb.github.io/post/some-pits-of-memcached/</guid>
       <description>&lt;p&gt;我们的网站用&lt;code&gt;django&lt;/code&gt;跑了很久了，一直没出现什么大的问题，突然一天晚上网站访问超级慢，出现大量的&lt;code&gt;502&lt;/code&gt;错误码，难不成用户量猛增么，要是这样就好了。请教了很多运维高手帮忙排查问题、代码也回滚到上一个正常运行的版本了，但依然负载一会高一会低。&lt;/p&gt;
 
 &lt;blockquote&gt;

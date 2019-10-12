@@ -14,41 +14,41 @@
   <meta property="og:description" content="Kubernetes Operator 101">
   <meta name="twitter:description" content="Kubernetes Operator 101">
   <meta name="author" content="{Description { .Site.Author.name }}"/>
-  <link href='https://www.qikqiak.com/img/avatar.png' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://www.qikqiak.com/img/avatar.png" />
-  <meta name="twitter:image" content="https://www.qikqiak.com/img/avatar.png" />
+  <link href='https://nocb.github.io/img/avatar.png' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://nocb.github.io/img/avatar.png" />
+  <meta name="twitter:image" content="https://nocb.github.io/img/avatar.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://www.qikqiak.com/post/k8s-operator-101/" />
+  <meta property="og:url" content="https://nocb.github.io/post/k8s-operator-101/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="授人以渔" />
 
   <meta name="generator" content="Hugo 0.58.3" />
-  <link rel="canonical" href="https://www.qikqiak.com/post/k8s-operator-101/" />
-  <link rel="alternate" href="https://www.qikqiak.com/index.xml" type="application/rss+xml" title="授人以渔">
+  <link rel="canonical" href="https://nocb.github.io/post/k8s-operator-101/" />
+  <link rel="alternate" href="https://nocb.github.io/index.xml" type="application/rss+xml" title="授人以渔">
   <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/jquery-1.12.4.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   
   
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/main.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/my.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/pace.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/my.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/pace.css" />
   <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css">
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/lightgallery.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/baguetteBox.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/search.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/reward.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/share.min.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/lightgallery.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/baguetteBox.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/search.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/reward.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/share.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/pygment_highlights.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/highlight.min.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/toc.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/css/lightbox.css" />
-  <link rel="stylesheet" href="https://www.qikqiak.com/live2d/css/live2d.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/highlight.min.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/toc.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/css/lightbox.css" />
+  <link rel="stylesheet" href="https://nocb.github.io/live2d/css/live2d.css" />
   
-  <link href="https://www.qikqiak.com/css/video-js.css" rel="stylesheet">
+  <link href="https://nocb.github.io/css/video-js.css" rel="stylesheet">
 
 
 <script>
@@ -62,7 +62,7 @@
 </script>
 
 
-<link rel="stylesheet" href="https://www.qikqiak.com/css/prism.css" />
+<link rel="stylesheet" href="https://nocb.github.io/css/prism.css" />
 
 
 
@@ -72,11 +72,11 @@
 
 
 
-<script src="https://www.qikqiak.com/js/pace.min.js" data-no-instant></script>
+<script src="https://nocb.github.io/js/pace.min.js" data-no-instant></script>
 
 
 
-<script src="https://www.qikqiak.com/js/instantclick.min.js" data-no-instant></script>
+<script src="https://nocb.github.io/js/instantclick.min.js" data-no-instant></script>
    <script data-no-instant>
    InstantClick.on('change', function(isInitialLoad) {
      if (isInitialLoad === false) {
@@ -181,14 +181,14 @@ if (!doNotTrack) {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="https://www.qikqiak.com/">少儿学习网</a>
+      <a class="navbar-brand" href="https://nocb.github.io/">少儿学习网</a>
     </div>
     <div class="collapse navbar-collapse" id="main-navbar">
       <ul class="nav navbar-nav navbar-right">
         
           
             <li>
-		    <a title="首页" href="https://www.qikqiak.com/">首页</a>
+		    <a title="首页" href="https://nocb.github.io/">首页</a>
               
               
             </li>
@@ -208,22 +208,22 @@ if (!doNotTrack) {
               <div class="navlinks-children">
                 
                 
-		<a href="https://www.qikqiak.com/archives">Archive</a>
+		<a href="https://nocb.github.io/archives">Archive</a>
                 
                 
-		<a href="https://www.qikqiak.com/tags">tags</a>
+		<a href="https://nocb.github.io/tags">tags</a>
                 
                 
-		<a href="https://www.qikqiak.com/tags/kubernetes">kubernetes</a>
+		<a href="https://nocb.github.io/tags/kubernetes">kubernetes</a>
                 
                 
-		<a href="https://www.qikqiak.com/tags/python">python</a>
+		<a href="https://nocb.github.io/tags/python">python</a>
                 
                 
-		<a href="https://www.qikqiak.com/tags/django">django</a>
+		<a href="https://nocb.github.io/tags/django">django</a>
                 
                 
-		<a href="https://www.qikqiak.com/tags/ops">devops</a>
+		<a href="https://nocb.github.io/tags/ops">devops</a>
                 
               </div>
             </li>
@@ -235,13 +235,13 @@ if (!doNotTrack) {
               <div class="navlinks-children">
                 
                 
-		<a href="https://www.qikqiak.com/k8s-book/">k8s进阶手册</a>
+		<a href="https://nocb.github.io/k8s-book/">k8s进阶手册</a>
                 
                 
-		<a href="https://www.qikqiak.com/istio-book/">一起学istio</a>
+		<a href="https://nocb.github.io/istio-book/">一起学istio</a>
                 
                 
-		<a href="https://www.qikqiak.com/tdd-book/">Python微服务</a>
+		<a href="https://nocb.github.io/tdd-book/">Python微服务</a>
                 
                 
 		<a href="https://md.qikqiak.com/">Markdown微信</a>
@@ -252,7 +252,7 @@ if (!doNotTrack) {
         
           
             <li>
-		    <a title="关于" href="https://www.qikqiak.com/page/about/">关于</a>
+		    <a title="关于" href="https://nocb.github.io/page/about/">关于</a>
               
               
             </li>
@@ -275,8 +275,8 @@ if (!doNotTrack) {
     <div class="avatar-container">
       <div class="avatar-img-border">
         
-          <a title="授人以渔" href="https://www.qikqiak.com/">
-            <img class="avatar-img" src="https://www.qikqiak.com/img/avatar.png" alt="授人以渔" />
+          <a title="授人以渔" href="https://nocb.github.io/">
+            <img class="avatar-img" src="https://nocb.github.io/img/avatar.png" alt="授人以渔" />
           </a>
         
       </div>
@@ -324,7 +324,7 @@ autocomplete('#aa-search-input',
         
         suggestion: function(suggestion) {
             
-            return '<span>' + '<a href="https://www.qikqiak.com/' + suggestion.uri+ '">' +
+            return '<span>' + '<a href="https://nocb.github.io/' + suggestion.uri+ '">' +
             suggestion._highlightResult.title.value + '</a></span>';
         }
     }
@@ -425,11 +425,11 @@ autocomplete('#aa-search-input',
 
     <h5 id="tags">Tags: 
         
-        <a href="https://www.qikqiak.com/tags/kubernetes/">kubernetes</a> &nbsp;
+        <a href="https://nocb.github.io/tags/kubernetes/">kubernetes</a> &nbsp;
         
-        <a href="https://www.qikqiak.com/tags/operator/">operator</a> &nbsp;
+        <a href="https://nocb.github.io/tags/operator/">operator</a> &nbsp;
         
-        <a href="https://www.qikqiak.com/tags/101/">101</a> &nbsp;
+        <a href="https://nocb.github.io/tags/101/">101</a> &nbsp;
     </h5>
 </div>
 
@@ -437,7 +437,7 @@ autocomplete('#aa-search-input',
             <article role="main" class="blog-post" itemprop="articleBody" id="content">
                 
 
-                <p>在 Kubernetes 的监控方案中我们经常会使用到一个<a href="https://www.qikqiak.com/tags/operator/">Promethues Operator</a>的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：<a href="https://github.com/operator-framework">Operator Framework</a>，该工具可以让开发人员更加容易的开发 Operator 应用。</p>
+                <p>在 Kubernetes 的监控方案中我们经常会使用到一个<a href="https://nocb.github.io/tags/operator/">Promethues Operator</a>的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：<a href="https://github.com/operator-framework">Operator Framework</a>，该工具可以让开发人员更加容易的开发 Operator 应用。</p>
 
 <p>在本篇文章中我们会为大家介绍一个简单示例来演示如何使用 Operator Framework 框架来开发一个 Operator 应用。</p>
 
@@ -989,7 +989,7 @@ $ kubectl delete -f deploy/crds/app_v1_appservice_crd.yaml</code></pre></div>
 <!--adsense-self-->
                 <br />
                 <div style="text-align:center;color: #ccc;font-size:16px;font-family: cursive;">-------鸟欲高飞先振翅 <i class="fa fa-umbrella"></i> 人求上进先读书-------</div>
-                <script src="https://www.qikqiak.com/js/particle.js"></script>
+                <script src="https://nocb.github.io/js/particle.js"></script>
                 
                 
             </article>
@@ -997,11 +997,11 @@ $ kubectl delete -f deploy/crds/app_v1_appservice_crd.yaml</code></pre></div>
             <ul class="pager blog-pager">
                 
                 <li class="previous">
-                    <a href="https://www.qikqiak.com/post/k8s-cka-course/" data-toggle="tooltip" data-placement="top" title="Kubernetes CKA 实训免费视频课程">&larr; 前一篇</a>
+                    <a href="https://nocb.github.io/post/k8s-cka-course/" data-toggle="tooltip" data-placement="top" title="Kubernetes CKA 实训免费视频课程">&larr; 前一篇</a>
                 </li>
                  
                 <li class="next">
-                    <a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/" data-toggle="tooltip" data-placement="top" title="Kubernetes 工作流引擎：Argo（1）">后一篇 &rarr;</a>
+                    <a href="https://nocb.github.io/post/argo-workflow-engine-for-k8s/" data-toggle="tooltip" data-placement="top" title="Kubernetes 工作流引擎：Argo（1）">后一篇 &rarr;</a>
                 </li>
                 
             </ul>
@@ -1011,7 +1011,7 @@ $ kubectl delete -f deploy/crds/app_v1_appservice_crd.yaml</code></pre></div>
                 <h2>相关文章</h2>
                 <ul>
                     
-                    <li><a href="https://www.qikqiak.com/post/k8s-cka-course/">Kubernetes CKA 实训免费视频课程</a></li>
+                    <li><a href="https://nocb.github.io/post/k8s-cka-course/">Kubernetes CKA 实训免费视频课程</a></li>
                     
                 </ul>
                 
@@ -1039,7 +1039,7 @@ $ kubectl delete -f deploy/crds/app_v1_appservice_crd.yaml</code></pre></div>
           
           
           <li>
-            <a href="https://www.qikqiak.com/index.xml" title="RSS">
+            <a href="https://nocb.github.io/index.xml" title="RSS">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
@@ -1056,7 +1056,7 @@ $ kubectl delete -f deploy/crds/app_v1_appservice_crd.yaml</code></pre></div>
           updated
           
             &nbsp;&bull;&nbsp;
-            <a href="https://www.qikqiak.com/">Home</a>
+            <a href="https://nocb.github.io/">Home</a>
           
         </p>
 
@@ -1103,16 +1103,16 @@ $ kubectl delete -f deploy/crds/app_v1_appservice_crd.yaml</code></pre></div>
 <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe-ui-default.min.js"></script>
 <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe.min.js"></script>
 <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/auto-render.min.js"></script>
-<script src="https://www.qikqiak.com/js/main.js"></script>
-<script src="https://www.qikqiak.com/js/clipboard.min.js"></script>
-<script src="https://www.qikqiak.com/js/prism.js?t=123"></script>
-<script src="https://www.qikqiak.com/js/highlight.min.js"></script>
+<script src="https://nocb.github.io/js/main.js"></script>
+<script src="https://nocb.github.io/js/clipboard.min.js"></script>
+<script src="https://nocb.github.io/js/prism.js?t=123"></script>
+<script src="https://nocb.github.io/js/highlight.min.js"></script>
 <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/katex.min.js"></script>
-<script src="https://www.qikqiak.com/js/reward.js"></script>
-<script src="https://www.qikqiak.com/js/canvas_ribbon.js"></script>
+<script src="https://nocb.github.io/js/reward.js"></script>
+<script src="https://nocb.github.io/js/canvas_ribbon.js"></script>
 <script> renderMathInElement(document.body); </script>
 
-<script src="https://www.qikqiak.com/js/baguetteBox.js"></script>
+<script src="https://nocb.github.io/js/baguetteBox.js"></script>
 <script> baguetteBox.run('.gallery');</script>
 
 
@@ -1124,7 +1124,7 @@ $ kubectl delete -f deploy/crds/app_v1_appservice_crd.yaml</code></pre></div>
 
 
 <script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-<script type="text/javascript" src="https://www.qikqiak.com/js/quicklink.umd.js"></script>
+<script type="text/javascript" src="https://nocb.github.io/js/quicklink.umd.js"></script>
 <script>
 window.addEventListener('load', () =>{
    quicklink();
@@ -1170,7 +1170,7 @@ jQuery(document).ready(function($) {
 </script>
 
 
-<script type="text/javascript" src="https://www.qikqiak.com/js/lightbox.js"></script>
+<script type="text/javascript" src="https://nocb.github.io/js/lightbox.js"></script>
 
 
 
