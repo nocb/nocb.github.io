@@ -6,21 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta content="" name="keywords">
 
-  <title> 授人以渔 - </title>
+  <title> Django 中STATIC_ROOT 与STATICFILES_DIRS的区别 - </title>
   <meta name="description" content="" />
-  <meta property="og:title" content="授人以渔" />
-  <meta name="twitter:title" content="授人以渔" />
+  <meta property="og:title" content="Django 中STATIC_ROOT 与STATICFILES_DIRS的区别" />
+  <meta name="twitter:title" content="Django 中STATIC_ROOT 与STATICFILES_DIRS的区别" />
+  <meta name="description" content="在做Django项目的时候，经常会遇到静态文件访问的问题，在本地开发的时候可以正常的访问静态文件，部署到服务器上后就出现各种幺蛾子了，我猜你一定也遇到过吧？之前在settings.py配置文件中对STATIC_ROOT与STATICFILES_DIRS两个配置项不是特别理解，总感觉都差不多，在线上就把STATIC_ROOT替换成STATICFILES_DIRS了，虽然可以解决问题，但是却没有知其所以然。">
+  <meta property="og:description" content="在做Django项目的时候，经常会遇到静态文件访问的问题，在本地开发的时候可以正常的访问静态文件，部署到服务器上后就出现各种幺蛾子了，我猜你一定也遇到过吧？之前在settings.py配置文件中对STATIC_ROOT与STATICFILES_DIRS两个配置项不是特别理解，总感觉都差不多，在线上就把STATIC_ROOT替换成STATICFILES_DIRS了，虽然可以解决问题，但是却没有知其所以然。">
+  <meta name="twitter:description" content="在做Django项目的时候，经常会遇到静态文件访问的问题，在本地开发的时候可以正常的访问静态文件，部署到服务器上后就出现各种幺蛾子了，我猜你一定也遇到过吧？之前在settings.py配置文件中对STATIC_ROOT与STATICFILES_DIRS两个配置项不是特别理解，总感觉都差不多，在线上就把STATIC_ROOT替换成STATICFILES_DIRS了，虽然可以解决问题，但是却没有知其所 …">
   <meta name="author" content="{Description { .Site.Author.name }}"/>
   <link href='https://www.qikqiak.com/img/avatar.png' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://www.qikqiak.com/img/avatar.png" />
   <meta name="twitter:image" content="https://www.qikqiak.com/img/avatar.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://www.qikqiak.com/" />
+  <meta property="og:url" content="https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="授人以渔" />
 
   <meta name="generator" content="Hugo 0.58.3" />
-  <link rel="canonical" href="https://www.qikqiak.com/" />
+  <link rel="canonical" href="https://www.qikqiak.com/post/django-staticroot-staticfilesdirs-function/" />
   <link rel="alternate" href="https://www.qikqiak.com/index.xml" type="application/rss+xml" title="授人以渔">
   <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/jquery-1.12.4.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
@@ -346,7 +349,7 @@ autocomplete('#aa-search-input',
 
 
   
-    <div id="header-big-imgs" data-num-img=2 data-img-src-1="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-04-27-152816.jpg" data-img-desc-1="aaaabbbb"data-img-src-2="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-04-27-152854.jpg" data-img-desc-2="ccddeeff"></div>
+    <div id="header-big-imgs" data-num-img=1 data-img-src-1="https://www.qikqiak.com/img/posts/18888531_442371539465605_1833253399559143424_n.jpg" data-img-desc-1="乌镇水乡@杭州 JUNE 1,2017"></div>
   
 
   <header class="header-section has-img">
@@ -356,14 +359,16 @@ autocomplete('#aa-search-input',
         <div class="container">
           <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="page-heading">
-                <h1>授人以渔</h1>
+              <div class="post-heading">
+                <h1>Django 中STATIC_ROOT 与STATICFILES_DIRS的区别</h1>
                   
-                    
-                      <hr class="small">
-                      <span class="page-subheading">关注 少儿教育、数理思维、少儿编程等</span>
-                    
                   
+                    <span class="post-meta">
+  
+  
+</span>
+
+
                   
               </div>
             </div>
@@ -378,14 +383,16 @@ autocomplete('#aa-search-input',
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>授人以渔</h1>
+            <div class="post-heading">
+              <h1>Django 中STATIC_ROOT 与STATICFILES_DIRS的区别</h1>
                 
-                  
-                    <hr class="small">
-                    <span class="page-subheading">关注 少儿教育、数理思维、少儿编程等</span>
-                  
                 
+                  <span class="post-meta">
+  
+  
+</span>
+
+
                 
             </div>
           </div>
@@ -397,487 +404,113 @@ autocomplete('#aa-search-input',
 
 
 
-  <div class="container">
+<div class="container" role="main" itemscope itemtype="http://schema.org/Article">
     <div class="row">
-      <div class="col-lg-8 col-md-10">
-
-
-        <div class="homepage-content">
-          
-          
-        </div>
-        <div>
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-        </div>
-
-
-        <div class="row">
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <div class="thumbnail course-item">
-
-              <a href="https://mp.weixin.qq.com/s/AirYinZtRmzsGMeTP4yEbw" title="乔布斯:这个国家的每个人都应该学习如何编程，因为它教你如何去思考"><span class="img" style="background-image: url(https://res.cloudinary.com/no/image/upload/v1570582277/pic/steven.png)"></span>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <div class="thumbnail course-item">
-
-              <a href="https://www.qikqiak.com/k8s-book/" title="从 Docker 到 Kubernetes 进阶"><span class="img" style="background-image: url(/img/mypic/xygq.jpg)"></span>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <div class="thumbnail course-item">
-
-              <a href="https://www.qikqiak.com/tdd-book/" title="Python 微服务应用开发"><span class="img" style="background-image: url(https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/qn6rt.jpg)"></span>
-              </a>
-            </div>
-          </div>
-          
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <div class="thumbnail course-item">
-
-              <a href="https://www.qikqiak.com/istio-book/" title="一起学istio"><span class="img" style="background-image: url(/img/mypic/fruit-drink.jpg)"></span>
-              </a>
-            </div>
-          </div>
-          
-        </div>
-
-
-        
-        <div class="posts-list">
-          
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/g1-ready-position/">
-                <h2 class="post-title">一年级 准备课和认识位置</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <p><code>关于本单元</code>
-通过数数活动，初步了解数物品个数的基本方法。认识“上、下”“前、后”的基本含义并会用来描述物品的位置。
-<a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png" alt="Argo" /></a></p>
-		            <a href="https://www.qikqiak.com/post/g1-ready-position/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/">
-                <h2 class="post-title">一年级 10以内数的认识及加减法</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <h2 id="本单元你能学到">本单元你能学到</h2>
-
-<p>认识10以内的数，学会10以内数的加减法并解决问题</p>
-		            <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/">
-                <h2 class="post-title">一年级 10以内数的认识及加减法</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <h2 id="本单元你能学到">本单元你能学到</h2>
-
-<p>认识10以内的数，学会10以内数的加减法并解决问题</p>
-		            <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/mysecond/">
-                <h2 class="post-title">一年级(23)-- 20以内数的认识及加减法</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <p><code>Docker</code>官方关于<code>Dockerfile</code>最佳实践原文链接地址：<a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/">https://docs.docker.com/develop/develop-images/dockerfile_best-practices/</a></p>
-
-<p><code>Docker</code>可以通过从<code>Dockerfile</code>包含所有命令的文本文件中读取指令自动构建镜像，以便构建给定镜像。</p>
-
-<p><code>Dockerfiles</code>使用特定的格式并使用一组特定的指令。您可以在 <a href="https://docs.docker.com/engine/reference/builder/">Dockerfile Reference</a> 页面上了解基础知识 。如果你是新手写作<code>Dockerfile</code>，你应该从那里开始。</p>
-
-<p>本文档介绍了由 Docker，Inc. 和 Docker 社区推荐的用于构建高效镜像的最佳实践和方法。要查看更多实践和建议，请查看 <a href="https://github.com/docker-library/buildpack-deps/blob/master/jessie/Dockerfile">Dockerfile for buildpack-deps</a>。</p>
-		            <a href="https://www.qikqiak.com/post/mysecond/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/">
-                <h2 class="post-title">Kubernetes 工作流引擎：Argo（1）</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <p><a href="https://applatix.com/open-source/argo/">Argo</a> 是 <a href="https://applatix.com/">Applatix</a> 推出的一个开源项目，为 Kubernetes 提供 container-native（工作流中的每个步骤是通过容器实现）工作流程。Argo 可以让用户用一个类似于传统的 YAML 文件定义的 DSL 来运行多个步骤的 Pipeline。该框架提供了复杂的循环、条件判断、依赖管理等功能，这有助于提高部署应用程序的灵活性以及配置和依赖的灵活性。使用 Argo，用户可以定义复杂的依赖关系，以编程方式构建复杂的工作流、制品管理，可以将任何步骤的输出结果作为输入链接到后续的步骤中去，并且可以在可视化 UI 界面中监控调度的作业任务。</p>
-
-<p><a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png" alt="Argo" /></a></p>
-		            <a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/kubernetes/">kubernetes</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/workflow/">workflow</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/argo/">Argo</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-        </div>
-
-        
-          <ul class="pager main-pager">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             
             
-              <li class="next">
-                <a href="https://www.qikqiak.com/page/2">下一页 &rarr;</a>
-              </li>
             
-          </ul>
-        
-        <div align="center" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          
+<div>
+    <section id="datecount">
+        <h4 id="date"> 2017年11月01日</h4>
+    </section>
 
-<ul class="pagination">
-    
-    <li class="page-item">
-        <a href="https://www.qikqiak.com/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-    </li>
-    
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
+    <h5 id="tags">Tags: 
         
+        <a href="https://www.qikqiak.com/tags/python/">python</a> &nbsp;
         
-    
-    
-    <li class="page-item active"><a class="page-link" href="https://www.qikqiak.com/">1</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="https://www.qikqiak.com/page/2/">2</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="https://www.qikqiak.com/page/3/">3</a></li>
-    
-    
-    <li class="page-item">
-    <a href="https://www.qikqiak.com/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-    </li>
-    
-    <li class="page-item">
-        <a href="https://www.qikqiak.com/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-    </li>
-    
+        <a href="https://www.qikqiak.com/tags/django/">django</a> &nbsp;
+    </h5>
+</div>
+
+            
+            <article role="main" class="blog-post" itemprop="articleBody" id="content">
+                
+
+                <p>在做<code>Django</code>项目的时候，经常会遇到静态文件访问的问题，在本地开发的时候可以正常的访问静态文件，部署到服务器上后就出现各种幺蛾子了，我猜你一定也遇到过吧？之前在<code>settings.py</code>配置文件中对<code>STATIC_ROOT</code>与<code>STATICFILES_DIRS</code>两个配置项不是特别理解，总感觉都差不多，在线上就把<code>STATIC_ROOT</code>替换成<code>STATICFILES_DIRS</code>了，虽然可以解决问题，但是却没有知其所以然。</p>
+
+<p>139 3568 7998</p>
+
+<h2 id="static-root">STATIC_ROOT</h2>
+
+<p><code>STATIC_ROOT</code>是<strong>Django 1.3</strong>新增的特性，该目录下面的文件会被当成静态文件进行处理。与<code>STATIC_ROOT</code>搭配使用的还有<code>STATIC_URL</code>，一般默认用<code>/static/</code>，用于指定静态目录的URL。其实<code>STATIC_ROOT</code>是用来方便部署<code>Django App</code>的。我们在写<code>Django App</code>的时候，经常会有一些和该App 相关的静态文件，虽然我认为的最佳实践方式是将静态文件放在统一的目录，但是毕竟<code>Django</code>是支持这种操作的，所以在1.3版本以前，部署的时候就比较麻烦了。</p>
+
+<ul>
+<li><p>第一种方法是使用<code>django.views.static.serve</code>来处理文件。在App的<code>urls.py</code>里面加上一条路由：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">url(<span style="color:#f1fa8c">r</span><span style="color:#f1fa8c">&#34;^(?/static/P&lt;path&gt;.*)$&#34;</span>, <span style="color:#f1fa8c">&#34;django.views.static.serve&#34;</span>, {<span style="color:#f1fa8c">&#34;document_root&#34;</span> : <span style="color:#f1fa8c">&#34;/path/to/project/app/static/&#34;</span>})</code></pre></div>
+<p>但是这样的话线上的静态文件就都通过<code>Django</code>来进行处理了，这样速度太慢了，毕竟处理静态文件不是<code>Django</code>的特长。</p></li>
+
+<li><p>处理静态文件什么在行？<code>Nginx</code>再加上<code>CDN</code>呗，所以现在就可以将每个App 里面的静态文件复制到一个统一的文件夹里面，然后在<code>nginx</code>中将<code>/static/</code>映射到该目录就行。但是这样是不是特别麻烦啊，每次上线都得把每个App 下面的静态文件复制一遍。</p></li>
 </ul>
 
+<p>为了解决上面的问题，1.3版本以后便提供了一个新的方法自动地将所有静态文件放在一起。在开发阶段不必费心去做映射。在部署到生产环境的时候，只需要配置<code>nginx</code>把<code>/static/</code>映射到<code>STATIC_ROOT</code>配置的目录，然后运行<code>python manage.py collectstatic</code>，自动地就会把各个App 下面的静态文件给复制到<code>STATIC_ROOT</code>。由于复制过来的文件会覆盖掉原来的文件，所以一定不要在<code>STATIC_ROOT</code>目录下面放置我们自己的静态文件。</p>
 
-          
-          
-          
-          
-          
-          
+<h2 id="staticfiles-dirs">STATICFILES_DIRS</h2>
+
+<p>从名字可以看出<code>STATICFILES_DIRS</code>指定了一个工程里面哪个目录存放了与这个工程相关的静态文件，这是一个列表。上面的<code>collectstatic</code>命令也会将该列表下面的静态文件收集到<code>STATIC_ROOT</code>目录下面去的，所以<code>STATICFILES_DIRS</code>下面是不能包含<code>STATIC_ROOT</code>这个路径的，对吧？</p>
+
+<h2 id="最佳实践">最佳实践</h2>
+
+<p>所以最佳的配置方式是将所有的App 下面的静态文件统一放置到一个目录下面，然后将该目录设置为<code>STATICFILES_DIRS</code>，<code>STATIC_ROOT</code>则设置为另外的目录。如下：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">STATIC_URL <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;/static/&#39;</span>
+<span style="color:#6272a4"># 开发阶段放置项目自己的静态文件</span>
+STATICFILES_DIRS <span style="color:#ff79c6">=</span> (
+    os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>join(BASE_DIR, <span style="color:#f1fa8c">&#39;staticfiles&#39;</span>),
+)
+<span style="color:#6272a4"># 执行collectstatic命令后会将项目中的静态文件收集到该目录下面来（所以不应该在该目录下面放置自己的一些静态文件，因为会覆盖掉）</span>
+STATIC_ROOT <span style="color:#ff79c6">=</span> os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>join(BASE_DIR, <span style="color:#f1fa8c">&#39;static&#39;</span>)</code></pre></div>
+<p>在开发阶段，<code>Django</code>把/static 映射到<code>django.contrib.staticfiles</code>这个App。<code>staticfiles</code>自动地从<code>STATICFILES_DIRS</code>、<code>STATIC_ROOT</code>以及各个App的static子目录里面搜索静态文件。一旦布署到开发环境上，<code>settings.py</code>不需要重新编写，只要在<code>Nginx</code>的配置文件里面写好映射，/static将会被<code>Nginx</code>处理。<code>django.contrib.staticfiles</code>虽然仍然存在，但因为不会接收到以<code>/static/</code>开始的路径，所以将不会产生作用。不必担心<code>Django</code>会使用处理速度变慢。另外，当<code>settings.DEBUG is False</code>的时候，<code>staticfiles</code>将自动关闭。</p>
+                <br />
+                <div style="text-align:center;color: #ccc;font-size:16px;font-family: cursive;">-------鸟欲高飞先振翅 <i class="fa fa-umbrella"></i> 人求上进先读书-------</div>
+                <script src="https://www.qikqiak.com/js/particle.js"></script>
+                
+                
+            </article>
+
+            <ul class="pager blog-pager">
+                
+                <li class="previous">
+                    <a href="https://www.qikqiak.com/post/nginx-301-redirect/" data-toggle="tooltip" data-placement="top" title="Nginx中如何设置301跳转">&larr; 前一篇</a>
+                </li>
+                 
+                <li class="next">
+                    <a href="https://www.qikqiak.com/post/django20-practice-project-course/" data-toggle="tooltip" data-placement="top" title="Django2.0 实战项目">后一篇 &rarr;</a>
+                </li>
+                
+            </ul>
+            
+            <div>
+                 
+                <h2>相关文章</h2>
+                <ul>
+                    
+                    <li><a href="https://www.qikqiak.com/post/some-pits-of-memcached/">Memcached的一些坑!!!</a></li>
+                    
+                    <li><a href="https://www.qikqiak.com/post/nginx-301-redirect/">Nginx中如何设置301跳转</a></li>
+                    
+                    <li><a href="https://www.qikqiak.com/page/about/">About me</a></li>
+                    
+                    <li><a href="https://www.qikqiak.com/page/archive/">Archive</a></li>
+                    
+                    <li><a href="https://www.qikqiak.com/page/kubernetes.io/">Kubernetes</a></li>
+                    
+                </ul>
+                
+            </div>
+            
+            
+            
+              
+            
+            </div>
         </div>
-      </div>
-
-      
-      <div class="col-lg-4 col-md-2">
-        
-        <div class="sidebar-wrap sidebar-about">
-  <img src="img/sys/about_web_long.png" alt="">
-
-
-
-
-
-  <p >
-    每个家长都非常重视孩子的成长和教育，学会学习是小学阶段的基本任务，通俗点，就是学会<B><code>自己学习</code></B>。
-    在这个知识大爆炸的时代，自学能力尤为重要。 成绩好的学生，绝对是自学能力强的。
-    当今社会，家长们把孩子送到学校，学校给孩子减负，家长再报各种课外培训班，
-    但这些培训班，良莠不齐，要么价格太高，要么授课质量一般，上课地方远，时间还经常冲突。</br>
-    本网站关注少儿教育的两个方面，为那些苦于寻求好的教学方式，又浪费较多金钱的家长而建:</br>
-    1.讲解学习<B><code>思维方式</code></B>，整理<B><code>学习方法</code></B> ，培养自我学习能力。</br>
-    2.提供<B><code>小学数学、少儿编程</code></B>方向的课程和研究 。</br>
-    十年树木，百年树人！</br>
-    希望尽我们的微薄之力，为孩子的人生发展打下坚实的基础。</p>
-
-</div>
-
-        
-
-        
-        <div class="sidebar-wrap">
-          <h4 class="sidebar-title">标签</h4>
-          <div class="list-unstyled tags-cloud">
-          
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             
-          
             
-          
-            
-          
-            
-          
-            
-          
-            
-            <a href="https://www.qikqiak.com/tags/django"><i class="fa fa-tags"></i>django(3)</a>
-            
-          
-            
-            <a href="https://www.qikqiak.com/tags/kubernetes"><i class="fa fa-tags"></i>kubernetes(3)</a>
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-            <a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7"><i class="fa fa-tags"></i>一年级(4)</a>
-            
-          
-            
-          
-            
-          
-            
-            <a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6"><i class="fa fa-tags"></i>数学(4)</a>
-            
-          
-            
-          
-          </div>
         </div>
-        
-        <div class="sidebar-block">
-  <h4 class="sidebar-title">友情链接</h4>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/avatar-icon.png">
     </div>
-    <div class="frienddivright">
-      <a target="_blank" href="https://jimmysong.io/" title="Jimmy Song" class="friendurl">Jimmy Song<br><span class="link-description">云原生布道师</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="https://hugo-picture.oss-cn-beijing.aliyuncs.com/blog/2019-06-03-060644.jpg">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="https://www.qikqiak.com/" title="阳明的博客" class="friendurl">阳明的博客<br><span class="link-description">关注容器、kubernetes、istio 等</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="https://www.lijiaocn.com/favicon.ico">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="https://www.lijiaocn.com/" title="李佶澳" class="friendurl">李佶澳<br><span class="link-description">关注 Calico、Envoy、Kong 的某大神</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="https://blog.fleeto.us/img/icon.png">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="https://blog.fleeto.us/" title="伪架构师" class="friendurl">伪架构师<br><span class="link-description">Kubernetes 权威指南作者</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="https://mritd.me/img/favicon.ico">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="https://mritd.me/" title="漠然" class="friendurl">漠然<br><span class="link-description">专注于 Kubernetes 与 Golang</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="http://www.yinwang.org/images/Yc.jpg">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="http://www.yinwang.org/" title="王垠的博客" class="friendurl">王垠的博客<br><span class="link-description">中国最早的 Linux 布道师</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="http://bk.poph163.com/wp-content/uploads/2018/04/2018-04-28-09-08-18%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="http://bk.poph163.com/" title="董的博客" class="friendurl">董的博客<br><span class="link-description">擅长写各种系列教程</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="https://res.cloudinary.com/no/image/upload/v1570796982/pic/ryf_book.jpg">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="http://www.ruanyifeng.com/survivor/" title="对未来及人工智能的一个预测、分析" class="friendurl">未来世界的幸存者<br><span class="link-description">在可预见的将来，技术最终将淘汰人类</span></a>
-    </div>
-  </div>
-  <div class="frienddiv">
-    <div class="frienddivleft">
-      <img class="myfriend" src="https://skyao.io/author/admin/avatar_hu9a83e0c939e89f8fc21c055e7cf31202_45777_250x250_fill_q75_box_center.jpg">
-    </div>
-    <div class="frienddivright">
-      <a target="_blank" href="https://skyao.io/" title="敖小剑的博客" class="friendurl">敖小剑的博客<br><span class="link-description">微服务专家，Service Mesh 布道师</span></a>
-    </div>
-  </div>
+    </section>
 </div>
-
-      </div>
-    </div>
-  </div>
 
 <footer id="copyright">
   <div class="container">

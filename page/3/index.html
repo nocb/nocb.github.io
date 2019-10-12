@@ -462,8 +462,8 @@ autocomplete('#aa-search-input',
           
           
             <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/g1-ready-position/">
-                <h2 class="post-title">一年级 准备课和认识位置</h2>
+              <a href="https://www.qikqiak.com/post/some-pits-of-memcached/">
+                <h2 class="post-title">Memcached的一些坑!!!</h2>
                 
               </a>
 
@@ -478,165 +478,21 @@ autocomplete('#aa-search-input',
               </div>
               <div class="post-entry">
                 
-		              <p><code>关于本单元</code>
-通过数数活动，初步了解数物品个数的基本方法。认识“上、下”“前、后”的基本含义并会用来描述物品的位置。
-<a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png" alt="Argo" /></a></p>
-		            <a href="https://www.qikqiak.com/post/g1-ready-position/" class="post-read-more">阅读全文</a>
+		              <p>我们的网站用<code>django</code>跑了很久了，一直没出现什么大的问题，突然一天晚上网站访问超级慢，出现大量的<code>502</code>错误码，难不成用户量猛增么，要是这样就好了。请教了很多运维高手帮忙排查问题、代码也回滚到上一个正常运行的版本了，但依然负载一会高一会低。</p>
+
+<blockquote>
+<p>捣腾了一天，最后定位到我们的代码有问题，有几个经常访问的API缓存了15分钟，经过分析发现其中一个API始终缓存不上，但在本地和测试环境都是没有问题的，这真是搞死人啊。后面发现这个API的请求的数据非常之大，接近2M了。而<strong>Memcache有很多限制，其中就有value值大小的限制</strong>，终于找到问题了，泪牛满面啊&hellip;&hellip;</p>
+</blockquote>
+		            <a href="https://www.qikqiak.com/post/some-pits-of-memcached/" class="post-read-more">阅读全文</a>
                 
               </div>
 
               
                 <span class="post-meta">
                 
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
+                   #<a href="https://www.qikqiak.com/tags/django/">django</a>&nbsp;
                 
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/">
-                <h2 class="post-title">一年级 10以内数的认识及加减法</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <h2 id="本单元你能学到">本单元你能学到</h2>
-
-<p>认识10以内的数，学会10以内数的加减法并解决问题</p>
-		            <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/">
-                <h2 class="post-title">一年级 10以内数的认识及加减法</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <h2 id="本单元你能学到">本单元你能学到</h2>
-
-<p>认识10以内的数，学会10以内数的加减法并解决问题</p>
-		            <a href="https://www.qikqiak.com/post/g1-one-to-ten-add/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/mysecond/">
-                <h2 class="post-title">一年级(23)-- 20以内数的认识及加减法</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <p><code>Docker</code>官方关于<code>Dockerfile</code>最佳实践原文链接地址：<a href="https://docs.docker.com/develop/develop-images/dockerfile_best-practices/">https://docs.docker.com/develop/develop-images/dockerfile_best-practices/</a></p>
-
-<p><code>Docker</code>可以通过从<code>Dockerfile</code>包含所有命令的文本文件中读取指令自动构建镜像，以便构建给定镜像。</p>
-
-<p><code>Dockerfiles</code>使用特定的格式并使用一组特定的指令。您可以在 <a href="https://docs.docker.com/engine/reference/builder/">Dockerfile Reference</a> 页面上了解基础知识 。如果你是新手写作<code>Dockerfile</code>，你应该从那里开始。</p>
-
-<p>本文档介绍了由 Docker，Inc. 和 Docker 社区推荐的用于构建高效镜像的最佳实践和方法。要查看更多实践和建议，请查看 <a href="https://github.com/docker-library/buildpack-deps/blob/master/jessie/Dockerfile">Dockerfile for buildpack-deps</a>。</p>
-		            <a href="https://www.qikqiak.com/post/mysecond/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
-                
-                </span>
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/">
-                <h2 class="post-title">Kubernetes 工作流引擎：Argo（1）</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-</span>
-
-
-	      <div class="view">
-	        <img src="">
-              </div>
-              <div class="post-entry">
-                
-		              <p><a href="https://applatix.com/open-source/argo/">Argo</a> 是 <a href="https://applatix.com/">Applatix</a> 推出的一个开源项目，为 Kubernetes 提供 container-native（工作流中的每个步骤是通过容器实现）工作流程。Argo 可以让用户用一个类似于传统的 YAML 文件定义的 DSL 来运行多个步骤的 Pipeline。该框架提供了复杂的循环、条件判断、依赖管理等功能，这有助于提高部署应用程序的灵活性以及配置和依赖的灵活性。使用 Argo，用户可以定义复杂的依赖关系，以编程方式构建复杂的工作流、制品管理，可以将任何步骤的输出结果作为输入链接到后续的步骤中去，并且可以在可视化 UI 界面中监控调度的作业任务。</p>
-
-<p><a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png" alt="Argo" /></a></p>
-		            <a href="https://www.qikqiak.com/post/argo-workflow-engine-for-k8s/" class="post-read-more">阅读全文</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                
-                   #<a href="https://www.qikqiak.com/tags/kubernetes/">kubernetes</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/workflow/">workflow</a>&nbsp;
-                
-                   #<a href="https://www.qikqiak.com/tags/argo/">Argo</a>&nbsp;
+                   #<a href="https://www.qikqiak.com/tags/memcached/">Memcached</a>&nbsp;
                 
                 </span>
               
@@ -647,10 +503,10 @@ autocomplete('#aa-search-input',
         
           <ul class="pager main-pager">
             
-            
-              <li class="next">
-                <a href="https://www.qikqiak.com/page/2">下一页 &rarr;</a>
+              <li class="previous">
+                <a href="https://www.qikqiak.com/page/2">&larr; 上一页</a>
               </li>
+            
             
           </ul>
         
@@ -663,8 +519,8 @@ autocomplete('#aa-search-input',
         <a href="https://www.qikqiak.com/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
     </li>
     
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+    <li class="page-item">
+    <a href="https://www.qikqiak.com/page/2/" class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
     </li>
     
     
@@ -677,7 +533,7 @@ autocomplete('#aa-search-input',
         
     
     
-    <li class="page-item active"><a class="page-link" href="https://www.qikqiak.com/">1</a></li>
+    <li class="page-item"><a class="page-link" href="https://www.qikqiak.com/">1</a></li>
     
     
     
@@ -699,11 +555,11 @@ autocomplete('#aa-search-input',
         
     
     
-    <li class="page-item"><a class="page-link" href="https://www.qikqiak.com/page/3/">3</a></li>
+    <li class="page-item active"><a class="page-link" href="https://www.qikqiak.com/page/3/">3</a></li>
     
     
-    <li class="page-item">
-    <a href="https://www.qikqiak.com/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    <li class="page-item disabled">
+    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
@@ -713,10 +569,6 @@ autocomplete('#aa-search-input',
 </ul>
 
 
-          
-          
-          
-          
           
           
         </div>
