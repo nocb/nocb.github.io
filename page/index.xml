@@ -11,15 +11,6 @@
     
     
     <item>
-      <title>About me</title>
-      <link>https://nocb.github.io/page/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nocb.github.io/page/about/</guid>
-      <description>Nothing in the world can take the place of Persistence. Talent will not; nothing is more common than unsuccessful men with talent. Genius will not; unrewarded genius is almost a proverb. Education will not; the world is full of educated derelicts. Persistence and Determination alone are omnipotent. The slogan “Press On” has solved and will always solve the problems of the human race.</description>
-    </item>
-    
-    <item>
       <title>Archive</title>
       <link>https://nocb.github.io/page/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -46,6 +37,15 @@ Kubernetes 特性1  全球规模：基于允许 Google 每周运行数十亿个�
       
       <guid>https://nocb.github.io/page/kubernetes.org.cn/</guid>
       <description>Kubernetes中文社区 www.kubernetes.org.cn 致力于让K8S技术人员便捷地获取信息，掌握K8S相关知识。推崇开源理念，推广K8S开源项目。</description>
+    </item>
+    
+    <item>
+      <title>关于本站</title>
+      <link>https://nocb.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nocb.github.io/page/about/</guid>
+      <description>每个家长都非常重视孩子的成长和教育，学会学习是小学阶段的基本任务，通俗点，就是学会自己学习。 在这个知识大爆炸的时代，自学能力尤为重要。 成绩好的学生，绝对是自学能力强的。 当今社会，家长们把孩子送到学校，学校给孩子减负，家长再报各种课外培训班， 但这些培训班，良莠不齐，要么价格太高，要么授课质量一般，上课地方远，时间还经常冲突。 本网站关注少儿教育的两个方面，为那些苦于寻求好的教学方式，又浪费较多金钱的家长而建: 1.讲解学习思维方式，整理学习方法 ，培养自我学习能力。 2.提供小学数学、少儿编程方向的课程和研究 。 十年树木，百年树人！</description>
     </item>
     
     <item>
