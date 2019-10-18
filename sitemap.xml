@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nocb.github.io/education/business-elite-program/</loc>
-    <lastmod>2019-10-09T11:08:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/post/g1-one-to-ten-add/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+    <loc>https://nocb.github.io/post/business-elite-program/</loc>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -48,38 +43,8 @@
   </url>
   
   <url>
-    <loc>https://nocb.github.io/education/</loc>
-    <lastmod>2019-10-09T11:08:51+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B/</loc>
-    <lastmod>2019-10-09T11:08:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/post/g1-one-to-ten-add/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/post/g1-ready-position/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/post/mysecond/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-10-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -93,12 +58,22 @@
   </url>
   
   <url>
+    <loc>https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nocb.github.io/math/g1-06/</loc>
     <lastmod>2019-01-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nocb.github.io/page/kidmath/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2019-01-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,15 +103,16 @@
   </url>
   
   <url>
+    <loc>https://nocb.github.io/page/about/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nocb.github.io/archives/</loc>
   </url>
   
   <url>
     <loc>https://nocb.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/page/about/</loc>
   </url>
   
 </urlset>
