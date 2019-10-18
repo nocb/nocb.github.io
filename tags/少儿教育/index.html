@@ -25,6 +25,7 @@
 
   
   <script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
+
       <link href="https://cdn.bootcss.com/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
       <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +72,7 @@
 
 
 
-<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+
 
 
 
@@ -100,10 +101,32 @@
 
 
 
+<script src="https://nocb.github.io/js/layui/layui.all.js"></script>
+
+<script>
+    var urlStart='<video width="100%" height="100%"  controls="controls"    poster="/img/aaa.png" ><source src="https://res.cloudinary.com/no/video/upload/';
+    var urlEnd='" type="video/mp4"></source></video>';
+
+    function playVideo(url,vname){
+        layer.open({
+            type: 1,
+            closeBtn:2,  
+            resize:false,  
+            scrollbar:false,
+            title: vname,
+            shadeClose: false, 
+            content: urlStart+url+urlEnd,
+        });
+    }
+</script>
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+
+<link href="https://cdn.bootcss.com/photoswipe/4.1.1/default-skin/default-skin.min.css" rel="stylesheet">
+
 
 
 
@@ -151,6 +174,7 @@
     </div>
 </div>
 
+
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -188,10 +212,23 @@ if (!doNotTrack) {
           
         
           
-            <li>
-		    <a title="课程" href="https://youdianzhishi.com/?utm_source=blog&amp;utm_campaign=referral&amp;utm_medium=topmenu">课程</a>
-              
-              
+            <li class="navlinks-container">
+		    <a class="navlinks-parent" href="javascript:void(0)">少儿数学</a>
+              <div class="navlinks-children">
+                
+                
+		<a href="https://nocb.github.io/page/kidmath">数学课目录</a>
+                
+                
+		<a href="https://nocb.github.io/">一年级</a>
+                
+                
+		<a href="https://nocb.github.io/">二年级</a>
+                
+                
+		<a href="https://nocb.github.io/">三年级</a>
+                
+              </div>
             </li>
           
         
@@ -201,13 +238,10 @@ if (!doNotTrack) {
               <div class="navlinks-children">
                 
                 
-		<a href="https://nocb.github.io/archives">教育理念</a>
-                
-                
 		<a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6">少儿数学</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E7%BC%96%E7%A8%8B">少儿编程</a>
+		<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B">少儿编程</a>
                 
                 
 		<a href="https://nocb.github.io/tags/%E5%B7%A5%E5%85%B7">学习工具</a>
@@ -341,7 +375,7 @@ autocomplete('#aa-search-input',
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://nocb.github.io/education/program-education/">
+              <a href="https://nocb.github.io/education/business-elite-program/">
                 <h2 class="post-title">重视编程教育,学习如何思考</h2>
 
                 
@@ -359,7 +393,7 @@ autocomplete('#aa-search-input',
 Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Houston和Zappos CEO谢家华等。</p>
 
 <p>视频中首先引用了乔布斯的话说，<strong><code>&quot;这个国家的每个人都应该学习编程，因为它教你如何去思考&quot;</code></strong>。而盖茨和扎克伯格等都谈了自己的第一次编程经历，并且说了他们为何要进入这个行业。</p>
-                  <a href="https://nocb.github.io/education/program-education/" class="post-read-more">[阅读全文]</a>
+                  <a href="https://nocb.github.io/education/business-elite-program/" class="post-read-more">[阅读全文]</a>
                 
               </div>
 
@@ -375,6 +409,68 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
 
             </article>
           
+            <article class="post-preview">
+              <a href="https://nocb.github.io/post/how-to-learn-math/">
+                <h2 class="post-title">学渣家长怎么教孩子数学</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                发表于 October 13, 2019
+              </p>
+              <div class="post-entry">
+                
+                  <p>谈到数学，很多人都会犯怵，自己上学时数学就不好，还能培养孩子吗？会不会培养坏了啊？而且，自己数学不好的人，往往对数学老师心怀敬畏，提到教孩子数学，常常第一反应是满世界地给孩子寻找数学名师。</p>
+                  <a href="https://nocb.github.io/post/how-to-learn-math/" class="post-read-more">[阅读全文]</a>
+                
+              </div>
+
+              
+                <span class="post-meta">
+                  
+                    #<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E6%95%B0%E5%AD%A6/">少儿数学</a>&nbsp;
+                  
+                    #<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2/">少儿教育</a>&nbsp;
+                  
+                </span>
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://nocb.github.io/post/not-learn-abacus/">
+                <h2 class="post-title">珠心算该不该学</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                发表于 October 13, 2019
+              </p>
+              <div class="post-entry">
+                
+                  <p>我仔细阅读了很多资料，并且了解过一些珠心算的课程，
+珠算式心算（简称珠心算）是以珠算为学习基础的计算过程，而且通过反复实践珠算，模拟实际拨珠的动作来执行计算。
+我认为珠心算对数学思维的培养，并没有太大的帮助，</p>
+
+<p><img src="http://pic.88dkl.com/aritcle_zxs.jpg" alt="珠算图片" /></p>
+                  <a href="https://nocb.github.io/post/not-learn-abacus/" class="post-read-more">[阅读全文]</a>
+                
+              </div>
+
+              
+                <span class="post-meta">
+                  
+                    #<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E6%95%B0%E5%AD%A6/">少儿数学</a>&nbsp;
+                  
+                    #<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2/">少儿教育</a>&nbsp;
+                  
+                </span>
+              
+
+            </article>
+          
         </div>
         
       </div>
@@ -382,6 +478,8 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
         
 
 
+        
+        
         
         
       </div>
@@ -409,7 +507,7 @@ Twitter联合创始人杰克·多西以及Dropbox联合创始人兼CEO Drew Hous
         &copy;2017-2018
           
           &nbsp;&bull;&nbsp;
-          October 9,2019
+          October 13,2019
           updated
           
             &nbsp;&bull;&nbsp;

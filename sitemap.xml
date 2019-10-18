@@ -3,12 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nocb.github.io/post/g1-ready-position/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/education/program-education/</loc>
+    <loc>https://nocb.github.io/education/business-elite-program/</loc>
     <lastmod>2019-10-09T11:08:51+08:00</lastmod>
   </url>
   
@@ -18,22 +13,42 @@
   </url>
   
   <url>
-    <loc>https://nocb.github.io/post/g1-one-to-ten-add/</loc>
-    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+    <loc>https://nocb.github.io/post/how-to-learn-math/</loc>
+    <lastmod>2019-10-13T11:08:51+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nocb.github.io/education/</loc>
-    <lastmod>2019-10-09T11:08:51+08:00</lastmod>
+    <loc>https://nocb.github.io/post/not-learn-abacus/</loc>
+    <lastmod>2019-10-13T11:08:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/post/</loc>
+    <lastmod>2019-10-13T11:08:51+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://nocb.github.io/tags/</loc>
-    <lastmod>2019-10-09T11:08:51+08:00</lastmod>
+    <lastmod>2019-10-13T11:08:51+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E6%95%99%E8%82%B2/</loc>
+    <lastmod>2019-10-13T11:08:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2019-10-13T11:08:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/</loc>
+    <lastmod>2019-10-13T11:08:51+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/education/</loc>
     <lastmod>2019-10-09T11:08:51+08:00</lastmod>
   </url>
   
@@ -43,17 +58,17 @@
   </url>
   
   <url>
-    <loc>https://nocb.github.io/</loc>
-    <lastmod>2019-10-09T11:08:51+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/post/</loc>
+    <loc>https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/</loc>
+    <loc>https://nocb.github.io/post/g1-one-to-ten-add/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/post/g1-ready-position/</loc>
     <lastmod>2019-09-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,7 +83,48 @@
   </url>
   
   <url>
-    <loc>https://nocb.github.io/page/archive/</loc>
+    <loc>https://nocb.github.io/math/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/page/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/math/g1-06/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/page/kidmath/</loc>
+    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/math/g1-05/</loc>
+    <lastmod>2019-01-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/math/g1-04/</loc>
+    <lastmod>2019-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/math/g1-03/</loc>
+    <lastmod>2019-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/math/g1-02/</loc>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nocb.github.io/math/g1-01/</loc>
+    <lastmod>2019-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -80,23 +136,7 @@
   </url>
   
   <url>
-    <loc>https://nocb.github.io/page/kubernetes.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/page/kubernetes.org.cn/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/page/</loc>
-  </url>
-  
-  <url>
     <loc>https://nocb.github.io/page/about/</loc>
-  </url>
-  
-  <url>
-    <loc>https://nocb.github.io/page/friend/</loc>
   </url>
   
 </urlset>

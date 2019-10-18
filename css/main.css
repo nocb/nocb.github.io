@@ -143,7 +143,7 @@ img {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-    color: #986dbd;
+    color: #48335a;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -393,7 +393,6 @@ footer .theme-by {
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
-
 .post-preview a:focus,
 .post-preview a:hover {
     text-decoration: none;

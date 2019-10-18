@@ -34,6 +34,7 @@
 
   
   <script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
+
       <link href="https://cdn.bootcss.com/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
       <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -80,7 +81,7 @@
 
 
 
-<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+
 
 
 
@@ -109,10 +110,32 @@
 
 
 
+<script src="https://nocb.github.io/js/layui/layui.all.js"></script>
+
+<script>
+    var urlStart='<video width="100%" height="100%"  controls="controls"    poster="/img/aaa.png" ><source src="https://res.cloudinary.com/no/video/upload/';
+    var urlEnd='" type="video/mp4"></source></video>';
+
+    function playVideo(url,vname){
+        layer.open({
+            type: 1,
+            closeBtn:2,  
+            resize:false,  
+            scrollbar:false,
+            title: vname,
+            shadeClose: false, 
+            content: urlStart+url+urlEnd,
+        });
+    }
+</script>
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+
+<link href="https://cdn.bootcss.com/photoswipe/4.1.1/default-skin/default-skin.min.css" rel="stylesheet">
+
 
 
 
@@ -160,6 +183,7 @@
     </div>
 </div>
 
+
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -197,10 +221,23 @@ if (!doNotTrack) {
           
         
           
-            <li>
-		    <a title="课程" href="https://youdianzhishi.com/?utm_source=blog&amp;utm_campaign=referral&amp;utm_medium=topmenu">课程</a>
-              
-              
+            <li class="navlinks-container">
+		    <a class="navlinks-parent" href="javascript:void(0)">少儿数学</a>
+              <div class="navlinks-children">
+                
+                
+		<a href="https://nocb.github.io/page/kidmath">数学课目录</a>
+                
+                
+		<a href="https://nocb.github.io/">一年级</a>
+                
+                
+		<a href="https://nocb.github.io/">二年级</a>
+                
+                
+		<a href="https://nocb.github.io/">三年级</a>
+                
+              </div>
             </li>
           
         
@@ -210,13 +247,10 @@ if (!doNotTrack) {
               <div class="navlinks-children">
                 
                 
-		<a href="https://nocb.github.io/archives">教育理念</a>
-                
-                
 		<a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6">少儿数学</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E7%BC%96%E7%A8%8B">少儿编程</a>
+		<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B">少儿编程</a>
                 
                 
 		<a href="https://nocb.github.io/tags/%E5%B7%A5%E5%85%B7">学习工具</a>
@@ -327,6 +361,9 @@ autocomplete('#aa-search-input',
 
 
 
+
+
+
   
   
   
@@ -363,7 +400,7 @@ autocomplete('#aa-search-input',
         <span class="img-desc" style="display: inline;"></span>
       </div>
     
-    
+
     <div class="intro-header no-img">
       
       <div class="container">
@@ -385,7 +422,7 @@ autocomplete('#aa-search-input',
         </div>
       </div>
     </div>
-    
+
   </header>
 
 
@@ -440,7 +477,7 @@ autocomplete('#aa-search-input',
 <!--adsense-self-->
                 <br />
                 <div style="text-align:center;color: #ccc;font-size:16px;font-family: cursive;">-------鸟欲高飞先振翅 <i class="fa fa-umbrella"></i> 人求上进先读书-------</div>
-                <script src="https://nocb.github.io/js/particle.js"></script>
+
                 
                 
             </article>
@@ -448,9 +485,13 @@ autocomplete('#aa-search-input',
             <ul class="pager blog-pager">
                 
                 <li class="previous">
-                    <a href="https://nocb.github.io/post/g1-one-to-ten-add/" data-toggle="tooltip" data-placement="top" title="一年级 10以内数的认识及加减法">&larr; 前一篇</a>
+                    <a href="https://nocb.github.io/post/mysecond/" data-toggle="tooltip" data-placement="top" title="一年级(23)-- 20以内数的认识及加减法">&larr; 前一篇</a>
                 </li>
                  
+                <li class="next">
+                    <a href="https://nocb.github.io/post/g1-one-to-ten-add/" data-toggle="tooltip" data-placement="top" title="一年级 10以内数的认识及加减法">后一篇 &rarr;</a>
+                </li>
+                
             </ul>
             
             <div>
@@ -463,6 +504,10 @@ autocomplete('#aa-search-input',
                     <li><a href="https://nocb.github.io/post/g1-one-to-ten-add/">一年级 10以内数的认识及加减法</a></li>
                     
                     <li><a href="https://nocb.github.io/post/mysecond/">一年级(23)-- 20以内数的认识及加减法</a></li>
+                    
+                    <li><a href="https://nocb.github.io/math/g1-06/">一年级 认识货币</a></li>
+                    
+                    <li><a href="https://nocb.github.io/math/g1-05/">一年级 认识图形</a></li>
                     
                 </ul>
                 
@@ -503,7 +548,7 @@ autocomplete('#aa-search-input',
         &copy;2017-2018
           
           &nbsp;&bull;&nbsp;
-          October 9,2019
+          October 13,2019
           updated
           
             &nbsp;&bull;&nbsp;

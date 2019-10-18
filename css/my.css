@@ -76,9 +76,9 @@ border-radius: 2px;
 transition: all .5s ease;
 font-weight: bold;
 &:hover {
-background: #000;
-color: #fff;
-}
+    background: #000;
+    color: #fff;
+    }
 }
 #inline-yellow {
 display:inline;
@@ -605,17 +605,33 @@ div.notices p:first-child:after {
 	color: black;
 }
 
-.myfriend {
-	width: 56px !important;
-	height: 56px !important;
-	border-radius: 50%;
-	border: 1px solid #ddd;
-	padding: 2px;
-	box-shadow: 1px 1px 1px rgba(0,0,0, .15);
-	margin-top: 14px !important;
-	margin-left: 14px !important;
-	background-color: #fff;
+.myplayer {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 2px;
+    box-shadow: 1px 1px 1px rgba(0,0,0, .15);
+    margin: 6px !important;
+    background-color: #fff;
 }
+
+.playerurl {
+    text-decoration: none !important;
+    color: black;
+}
+
+.myfriend {
+     width: 56px !important;
+     height: 56px !important;
+     border-radius: 50%;
+     border: 1px solid #ddd;
+     padding: 2px;
+     box-shadow: 1px 1px 1px rgba(0,0,0, .15);
+     margin-top: 14px !important;
+     margin-left: 14px !important;
+     background-color: #fff;
+ }
 
 .frienddiv {
 	height: 92px;
@@ -644,6 +660,7 @@ div.notices p:first-child:after {
 .frienddivleft {
 	width: 92px;
 	float: left;
+    vertical-align:middle;
 }
 
 .frienddivleft {
@@ -651,11 +668,38 @@ div.notices p:first-child:after {
 }
 
 .frienddivright {
-	margin-top: 18px;
+	margin-top: 18px;  // 18
 	margin-right: 18px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
+}
+
+.playerdiv {
+    height: 42px;
+    width: 100%;
+    display: inline-block !important;
+}
+
+.playerdiv:hover {
+    background: rgba(87, 142, 224, 0.15);
+}
+
+.playerdivleft {
+    width: 42px;
+    float: left;
+    vertical-align:middle;
+}
+
+.playerdivleft {
+    margin-right: 2px;
+}
+.playerText {
+    margin-top: 10px;  // 18
+    margin-right: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .link-title {
     font-size: 1rem;

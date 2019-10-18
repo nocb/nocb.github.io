@@ -22,10 +22,14 @@
   <meta name="generator" content="Hugo 0.58.3" />
   <link rel="canonical" href="https://nocb.github.io/post/" />
   <link rel="alternate" href="https://nocb.github.io/index.xml" type="application/rss+xml" title="授人以渔">
-  <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/jquery-1.12.4.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  
+  <script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
+
+      <link href="https://cdn.bootcss.com/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
+      <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
   
   
   <link rel="stylesheet" href="https://nocb.github.io/css/main.css" />
@@ -69,7 +73,7 @@
 
 
 
-<script src="https://nocb.github.io/js/pace.min.js" data-no-instant></script>
+
 
 
 
@@ -96,18 +100,33 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
 
 
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script src="https://nocb.github.io/js/layui/layui.all.js"></script>
+
 <script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-392598108458503611",
-    enable_page_level_ads: true
-  });
+    var urlStart='<video width="100%" height="100%"  controls="controls"    poster="/img/aaa.png" ><source src="https://res.cloudinary.com/no/video/upload/';
+    var urlEnd='" type="video/mp4"></source></video>';
+
+    function playVideo(url,vname){
+        layer.open({
+            type: 1,
+            closeBtn:2,  
+            resize:false,  
+            scrollbar:false,
+            title: vname,
+            shadeClose: false, 
+            content: urlStart+url+urlEnd,
+        });
+    }
 </script>
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<link href="https://cdn.bootcss.com/photoswipe/4.1.1/default-skin/default-skin.min.css" rel="stylesheet">
+
 
 
 
@@ -155,6 +174,7 @@
     </div>
 </div>
 
+
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -192,10 +212,23 @@ if (!doNotTrack) {
           
         
           
-            <li>
-		    <a title="课程" href="https://youdianzhishi.com/?utm_source=blog&amp;utm_campaign=referral&amp;utm_medium=topmenu">课程</a>
-              
-              
+            <li class="navlinks-container">
+		    <a class="navlinks-parent" href="javascript:void(0)">少儿数学</a>
+              <div class="navlinks-children">
+                
+                
+		<a href="https://nocb.github.io/page/kidmath">数学课目录</a>
+                
+                
+		<a href="https://nocb.github.io/">一年级</a>
+                
+                
+		<a href="https://nocb.github.io/">二年级</a>
+                
+                
+		<a href="https://nocb.github.io/">三年级</a>
+                
+              </div>
             </li>
           
         
@@ -205,45 +238,26 @@ if (!doNotTrack) {
               <div class="navlinks-children">
                 
                 
-		<a href="https://nocb.github.io/archives">Archive</a>
+		<a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6">少儿数学</a>
+                
+                
+		<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B">少儿编程</a>
+                
+                
+		<a href="https://nocb.github.io/tags/%E5%B7%A5%E5%85%B7">学习工具</a>
                 
                 
 		<a href="https://nocb.github.io/tags">tags</a>
-                
-                
-		<a href="https://nocb.github.io/tags/kubernetes">kubernetes</a>
-                
-                
-		<a href="https://nocb.github.io/tags/python">python</a>
-                
-                
-		<a href="https://nocb.github.io/tags/django">django</a>
-                
-                
-		<a href="https://nocb.github.io/tags/ops">devops</a>
                 
               </div>
             </li>
           
         
           
-            <li class="navlinks-container">
-		    <a class="navlinks-parent" href="javascript:void(0)">书籍</a>
-              <div class="navlinks-children">
-                
-                
-		<a href="https://nocb.github.io/k8s-book/">k8s进阶手册</a>
-                
-                
-		<a href="https://nocb.github.io/istio-book/">一起学istio</a>
-                
-                
-		<a href="https://nocb.github.io/tdd-book/">Python微服务</a>
-                
-                
-		<a href="https://md.qikqiak.com/">Markdown微信</a>
-                
-              </div>
+            <li>
+		    <a title="习题" href="https://nocb.github.io/">习题</a>
+              
+              
             </li>
           
         
@@ -361,32 +375,30 @@ autocomplete('#aa-search-input',
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://nocb.github.io/post/argo-workflow-engine-for-k8s/">
-                <h2 class="post-title">Kubernetes 工作流引擎：Argo（1）</h2>
+              <a href="https://nocb.github.io/post/g1-ready-position/">
+                <h2 class="post-title">一年级 准备课和认识位置</h2>
 
                 
               </a>
 
               <p class="post-meta">
-                发表于 September 10, 2019
+                发表于 September 24, 2019
               </p>
               <div class="post-entry">
                 
-                  <p><a href="https://applatix.com/open-source/argo/">Argo</a> 是 <a href="https://applatix.com/">Applatix</a> 推出的一个开源项目，为 Kubernetes 提供 container-native（工作流中的每个步骤是通过容器实现）工作流程。Argo 可以让用户用一个类似于传统的 YAML 文件定义的 DSL 来运行多个步骤的 Pipeline。该框架提供了复杂的循环、条件判断、依赖管理等功能，这有助于提高部署应用程序的灵活性以及配置和依赖的灵活性。使用 Argo，用户可以定义复杂的依赖关系，以编程方式构建复杂的工作流、制品管理，可以将任何步骤的输出结果作为输入链接到后续的步骤中去，并且可以在可视化 UI 界面中监控调度的作业任务。</p>
-
-<p><a href="https://nocb.github.io/post/argo-workflow-engine-for-k8s/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png" alt="Argo" /></a></p>
-                  <a href="https://nocb.github.io/post/argo-workflow-engine-for-k8s/" class="post-read-more">[阅读全文]</a>
+                  <p><code>关于本单元</code>
+通过数数活动，初步了解数物品个数的基本方法。认识“上、下”“前、后”的基本含义并会用来描述物品的位置。
+<a href="https://nocb.github.io/post/argo-workflow-engine-for-k8s/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/argo-k8s.png" alt="Argo" /></a></p>
+                  <a href="https://nocb.github.io/post/g1-ready-position/" class="post-read-more">[阅读全文]</a>
                 
               </div>
 
               
                 <span class="post-meta">
                   
-                    #<a href="https://nocb.github.io/tags/kubernetes/">kubernetes</a>&nbsp;
+                    #<a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
                   
-                    #<a href="https://nocb.github.io/tags/workflow/">workflow</a>&nbsp;
-                  
-                    #<a href="https://nocb.github.io/tags/argo/">Argo</a>&nbsp;
+                    #<a href="https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
                   
                 </span>
               
@@ -394,104 +406,28 @@ autocomplete('#aa-search-input',
             </article>
           
             <article class="post-preview">
-              <a href="https://nocb.github.io/post/k8s-operator-101/">
-                <h2 class="post-title">Kubernetes Operator 快速入门教程</h2>
+              <a href="https://nocb.github.io/post/mysecond/">
+                <h2 class="post-title">一年级(23)-- 20以内数的认识及加减法</h2>
 
-                
-                  <h3 class="post-subtitle">
-                    Kubernetes Operator 101
-                  </h3>
                 
               </a>
 
               <p class="post-meta">
-                发表于 May 29, 2019
+                发表于 September 24, 2019
               </p>
               <div class="post-entry">
                 
-                  <p>在 Kubernetes 的监控方案中我们经常会使用到一个<a href="https://nocb.github.io/tags/operator/">Promethues Operator</a>的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：<a href="https://github.com/operator-framework">Operator Framework</a>，该工具可以让开发人员更加容易的开发 Operator 应用。</p>
-
-<p>在本篇文章中我们会为大家介绍一个简单示例来演示如何使用 Operator Framework 框架来开发一个 Operator 应用。</p>
-                  <a href="https://nocb.github.io/post/k8s-operator-101/" class="post-read-more">[阅读全文]</a>
+                  <p>阿斯蒂芬</p>
+                  <a href="https://nocb.github.io/post/mysecond/" class="post-read-more">[阅读全文]</a>
                 
               </div>
 
               
                 <span class="post-meta">
                   
-                    #<a href="https://nocb.github.io/tags/kubernetes/">kubernetes</a>&nbsp;
+                    #<a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6/">数学</a>&nbsp;
                   
-                    #<a href="https://nocb.github.io/tags/operator/">operator</a>&nbsp;
-                  
-                    #<a href="https://nocb.github.io/tags/101/">101</a>&nbsp;
-                  
-                </span>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://nocb.github.io/post/k8s-cka-course/">
-                <h2 class="post-title">Kubernetes CKA 实训免费视频课程</h2>
-
-                
-              </a>
-
-              <p class="post-meta">
-                发表于 January 15, 2019
-              </p>
-              <div class="post-entry">
-                
-                  <p><a href="https://nocb.github.io/post/k8s-cka-course/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/kqPNDq.jpg" alt="cka" /></a></p>
-
-<p>本系列课程参考 CKA (Certificted Kubernetes Administrator) 知识体系进行课程设计，并结合华为在 kubernetes 项目推广过程中的实践经验，理论+实践让用户快速掌握kubernetes的使用和维护技能。</p>
-                  <a href="https://nocb.github.io/post/k8s-cka-course/" class="post-read-more">[阅读全文]</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                  
-                    #<a href="https://nocb.github.io/tags/kubernetes/">kubernetes</a>&nbsp;
-                  
-                    #<a href="https://nocb.github.io/tags/cka/">CKA</a>&nbsp;
-                  
-                    #<a href="https://nocb.github.io/tags/%E8%AF%BE%E7%A8%8B/">课程</a>&nbsp;
-                  
-                </span>
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://nocb.github.io/post/django20-practice-project-course/">
-                <h2 class="post-title">Django2.0 实战项目</h2>
-
-                
-                  <h3 class="post-subtitle">
-                    基于 Django2.0 快速实现一个产品分享的 WEB 应用
-                  </h3>
-                
-              </a>
-
-              <p class="post-meta">
-                发表于 April 16, 2018
-              </p>
-              <div class="post-entry">
-                
-                  <p>在本课程中，你将学习如何使用<code>Django2.0</code>快速开发一个<code>WEB 应用</code>，了解到在实际开发过程中关于<code>Django</code>的一些最佳实践技巧，学习到<code>Django2.0</code>与<code>1.x</code>版本的一些异同点以及优势。无论你之前是否学习过 Django 应用框架，通过本课程你都将能够很快速的掌握 Django 的使用。</p>
-
-<p>课程链接地址：<a href="https://www.haimaxy.com/course/m12jop/?utm_source=blog">https://www.haimaxy.com/course/m12jop/</a></p>
-                  <a href="https://nocb.github.io/post/django20-practice-project-course/" class="post-read-more">[阅读全文]</a>
-                
-              </div>
-
-              
-                <span class="post-meta">
-                  
-                    #<a href="https://nocb.github.io/tags/django/">django</a>&nbsp;
-                  
-                    #<a href="https://nocb.github.io/tags/%E5%AE%9E%E6%88%98/">实战</a>&nbsp;
+                    #<a href="https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7/">一年级</a>&nbsp;
                   
                 </span>
               
@@ -506,10 +442,6 @@ autocomplete('#aa-search-input',
                 <a href="https://nocb.github.io/post/page/1">&larr; 上一页</a>
               </li>
             
-            
-              <li class="next">
-                <a href="https://nocb.github.io/post/page/3">下一页 &rarr;</a>
-              </li>
             
           </ul>
         
@@ -551,30 +483,17 @@ autocomplete('#aa-search-input',
     <li class="page-item active"><a class="page-link" href="https://nocb.github.io/post/page/2/">2</a></li>
     
     
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="https://nocb.github.io/post/page/3/">3</a></li>
-    
-    
-    <li class="page-item">
-    <a href="https://nocb.github.io/post/page/3/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+    <li class="page-item disabled">
+    <a  class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
     </li>
     
     <li class="page-item">
-        <a href="https://nocb.github.io/post/page/3/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        <a href="https://nocb.github.io/post/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
     </li>
     
 </ul>
 
 
-        
-        
         
         
         
@@ -603,7 +522,7 @@ autocomplete('#aa-search-input',
         &copy;2017-2018
           
           &nbsp;&bull;&nbsp;
-          October 9,2019
+          October 13,2019
           updated
           
             &nbsp;&bull;&nbsp;
@@ -650,12 +569,14 @@ autocomplete('#aa-search-input',
 </footer>
 
 
-<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/bootstrap.min.js"></script>
-<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe-ui-default.min.js"></script>
-<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe.min.js"></script>
-<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/auto-render.min.js"></script>
+
+<script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js//bootstrap.min.js"></script>
+<script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js/photoswipe-ui-default.min.js"></script>
+<script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js/photoswipe.min.js"></script>
+<script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js/auto-render.min.js"></script>
+
 <script src="https://nocb.github.io/js/main.js"></script>
-<script src="https://nocb.github.io/js/clipboard.min.js"></script>
+
 <script src="https://nocb.github.io/js/prism.js?t=123"></script>
 <script src="https://nocb.github.io/js/highlight.min.js"></script>
 <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/katex.min.js"></script>
@@ -737,7 +658,7 @@ jQuery(document).ready(function($) {
 <script>const player = new Plyr('#player');</script>
 
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 
 
 </body>

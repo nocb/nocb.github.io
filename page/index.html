@@ -25,6 +25,7 @@
 
   
   <script src="https://cdn.staticfile.org/jquery/1.12.4/jquery.min.js"></script>
+
       <link href="https://cdn.bootcss.com/KaTeX/0.9.0/katex.min.css" rel="stylesheet">
       <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +72,7 @@
 
 
 
-<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+
 
 
 
@@ -100,10 +101,32 @@
 
 
 
+<script src="https://nocb.github.io/js/layui/layui.all.js"></script>
+
+<script>
+    var urlStart='<video width="100%" height="100%"  controls="controls"    poster="/img/aaa.png" ><source src="https://res.cloudinary.com/no/video/upload/';
+    var urlEnd='" type="video/mp4"></source></video>';
+
+    function playVideo(url,vname){
+        layer.open({
+            type: 1,
+            closeBtn:2,  
+            resize:false,  
+            scrollbar:false,
+            title: vname,
+            shadeClose: false, 
+            content: urlStart+url+urlEnd,
+        });
+    }
+</script>
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+
+<link href="https://cdn.bootcss.com/photoswipe/4.1.1/default-skin/default-skin.min.css" rel="stylesheet">
+
 
 
 
@@ -151,6 +174,7 @@
     </div>
 </div>
 
+
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -188,10 +212,23 @@ if (!doNotTrack) {
           
         
           
-            <li>
-		    <a title="课程" href="https://youdianzhishi.com/?utm_source=blog&amp;utm_campaign=referral&amp;utm_medium=topmenu">课程</a>
-              
-              
+            <li class="navlinks-container">
+		    <a class="navlinks-parent" href="javascript:void(0)">少儿数学</a>
+              <div class="navlinks-children">
+                
+                
+		<a href="https://nocb.github.io/page/kidmath">数学课目录</a>
+                
+                
+		<a href="https://nocb.github.io/">一年级</a>
+                
+                
+		<a href="https://nocb.github.io/">二年级</a>
+                
+                
+		<a href="https://nocb.github.io/">三年级</a>
+                
+              </div>
             </li>
           
         
@@ -201,13 +238,10 @@ if (!doNotTrack) {
               <div class="navlinks-children">
                 
                 
-		<a href="https://nocb.github.io/archives">教育理念</a>
-                
-                
 		<a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6">少儿数学</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E7%BC%96%E7%A8%8B">少儿编程</a>
+		<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B">少儿编程</a>
                 
                 
 		<a href="https://nocb.github.io/tags/%E5%B7%A5%E5%85%B7">学习工具</a>
@@ -341,91 +375,28 @@ autocomplete('#aa-search-input',
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://nocb.github.io/page/archive/">
-                <h2 class="post-title">Archive</h2>
+              <a href="https://nocb.github.io/page/kidmath/">
+                <h2 class="post-title">小学数学课程列表</h2>
 
                 
               </a>
 
               <p class="post-meta">
-                发表于 January 1, 0001
+                发表于 January 26, 2019
               </p>
               <div class="post-entry">
                 
-                  关注容器、kubernetes、devops、python、golang、微服务等技术。
- Kubernetes/Docker  Traefik 2.0 正式版发布 Helm V2 迁移到 V3 版本 Kubernetes Pod 安全策略(PSP)配置 Kubernetes 工作流引擎：Argo Traefik 团队开源的轻量级 Service Mesh 工具 Maesh VMWare 开源的 Kubernetes Dashboard 工具 Octant 使用 kubeadm 搭建 v1.15.3 版本 Kubernetes 集群 使用 GitHub Actions 自动化构建 Golang 应用 使用 Kustomize 配置 Kubernetes 应用 在现有 Kubernetes 集群上安装 KubeSphere 基于 Drone 的 CI/CD（三） 基于 Drone 的 CI/CD（二） 基于 Drone 的 CI/CD（一） 提高 kubectl 使用生产力 使用Elasticsearch Operator快速部署Elasticsearch集群 通过 GitHub OAuth 和 Dex 访问 Kubernetes 集群 使用 Configuration-As-Code 运行 Jenkins 深入理解 Kubernetes Admission Webhook Kubernetes Operator 快速入门教程 Metrics Server 安装 使用 kubeadm 更新 kubernetes 集群 Kubelet 状态更新机制 Groovy 简明教程 基于 Jenkins、Gitlab、Harbor、Helm 和 Kubernetes 的 CI/CD(二) Helm Chart 模板开发技巧 Kubernetes 网络故障常见排查方法 如何保护对外暴露的 Kubernetes 服务 nginx ingress 的安装使用 基于 Jenkins、Gitlab、Harbor、Helm 和 Kubernetes 的 CI/CD(一) 《深入浅出Prometheus》 Gitlab CI 与 Kubernetes 的结合 在 Kubernetes 上安装 Gitlab CI Runner 在 Kubernetes 上安装 Gitlab Harbor 快速安装使用 Harbor 源码浅析 Kubernetes 部署策略详解 Helm monitor 插件(附视频) Istio 实训免费视频课程 在 Kubernetes 上搭建 EFK 日志收集系统 Kubernetes CKA 实训视频课程 办公环境下 kubernetes 网络互通方案 Prometheus 删除数据指标 kubernetes 日志架构 Prometheus Operator 高级配置 Prometheus Operator 自定义报警 Prometheus Operator 监控 etcd 集群 Grafana 日志聚合工具 Loki Prometheus Operator 初体验 Docker 镜像分析工具 Dive(附视频) Kubernetes API 资源使用 Kubernetes Ingress 自动化 HTTPS 360 开源 K8S Dashboard Wayne 的安装使用 Grafana 在 Kubernetes 中的使用 Kubernetes 节点监控 Kubernetes 应用监控 重新理解 kubernetes 亲和性调度 Kubernetes 调度器介绍 Helm Hooks 的使用 Helm 命名模板的使用 Dockerfile 最佳实践 Kubernetes 服务质量 Qos Helm 的基本使用 华为 CloudNativeLives K8S 系列课程 外部服务发现之 ingress(二) 如何学习Kubernetes？ ipvs 基本介绍 kubernetes 如何发音？ 外部服务发现之 ingress(一) 集群内部服务发现之 DNS 基于 Jenkins 的 CI/CD(三) 基于 Jenkins 的 CI/CD(二) 基于 Jenkins 的 CI/CD(一) Pod 中挂载单个文件的方法 kubernetes 持久化存储(二) kubernetes 持久化存储(一) Kubernetes RBAC 详解 Secret 的使用方法 Service 的使用方法 Job 和 CronJob 的使用方法 RC、RS 使用方法 初始化容器 Kubernetes Pod 工作流 使用kubeadm搭建kubernetes1.
-                  <a href="https://nocb.github.io/page/archive/" class="post-read-more">[阅读全文]</a>
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://nocb.github.io/page/kubernetes.io/">
-                <h2 class="post-title">Kubernetes</h2>
-
-                
-                  <h3 class="post-subtitle">
-                    生产级别的容器编排系统
-                  </h3>
-                
-              </a>
-
-              <p class="post-meta">
-                发表于 January 1, 0001
-              </p>
-              <div class="post-entry">
-                
-                  
-
-<p>Kubernetes 是用于自动部署，扩展和管理容器化应用程序的开源系统。 它将组成应用程序的容器组合成逻辑单元，以便于管理和服务发现，Kubernetes 构建在 Google 15 年生产环境经验基础之上，并结合来自社区的最佳创意和实践。</p>
-
-<h3 id="kubernetes-特性1">Kubernetes 特性1</h3>
-
-<ul>
-<li>全球规模：基于允许 Google 每周运行数十亿个容器的原则进行设计，Kubernetes 可以在不增加您的运维团队的情况下进行弹性扩展。</li>
-<li>永不过时：无论您应用运行在本地还是运行于全球任何地域，Kubernetes 的灵活性都可以随着您的需求复杂度不断增加，还可以持续、轻松地对外提供服务。</li>
-<li>随处运行：Kubernetes 是开源的，可以让您自由地部署在企业内部，私有云、混合云或公有云基础架构，使您轻松将应用迁移至任何位置。</li>
-</ul>
-
-<h3 id="kubernetes-特性2">Kubernetes 特性2</h3>
-
-<ul>
-<li>自动包装：根据资源需求和其他约束自动放置容器，同时不会牺牲可用性，混合关键和最大努力的工作负载，以提高资源利用率并节省更多资源。</li>
-<li>自我修复：重新启动失败的容器，在节点不可用时，替换和重新调度节点上的容器，对用户定义的健康检查不响应的容器会被中止，并且在容器准备好服务之前不会把其向客户端广播。</li>
-<li>横向缩放：使用简单的命令或 UI，或者根据 CPU 的使用情况自动调整应用程序副本数。</li>
-<li>服务发现和负载均衡：不需要修改您的应用程序来使用不熟悉的服务发现机制，Kubernetes 为容器提供了自己的 IP 地址和一组容器的单个 DNS 名称，并可以在它们之间进行负载均衡。</li>
-</ul>
-
-<p><a href="https://kubernetes.io/zh/"><img src="https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/1zB8cS.jpg" alt="kubernetes.io" /></a></p>
-
-                
-              </div>
-
-              
-
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://nocb.github.io/page/kubernetes.org.cn/">
-                <h2 class="post-title">Kubernetes中文社区</h2>
-
-                
-                  <h3 class="post-subtitle">
-                    分享最新K8S资讯、教程、实践和中文文档
-                  </h3>
-                
-              </a>
-
-              <p class="post-meta">
-                发表于 January 1, 0001
-              </p>
-              <div class="post-entry">
-                
-                  <p><code>Kubernetes中文社区</code> www.kubernetes.org.cn 致力于让K8S技术人员便捷地获取信息，掌握K8S相关知识。推崇开源理念，推广K8S开源项目。</p>
-
+                  关注少儿数学、数理思维。可汗学院
+ 本站的少儿数学视频来自 可汗学院 ，因网络不好，视频常常加载不出，因此转载在本站,方便国内的孩子学习。 可汗学院里的课程质量很高，可汗采用反转教育(翻转课堂)模式，学生们在家里观看优秀视频自学，老师则在课堂上答疑解惑，辅导学生们完成功课。“我们的使命是让所有人享有免费的世界一流教育”。
+一年级  准备课和认识位置 10以内数的认识及加减法 20以内数的认识及加减法 100以内数的认识及加法和减法(一) 认识图形 认识货币  二年级  长度单位 100以内的加法和减法(二) 角的初步认识 表内乘法 认识钟表 表内除法和有余数的除法 混合运算 图形的运动（一） 万以内数的认识
+ 克和千克
+  三年级  时、分、秒 万以内的加减法 测量 倍的认识 多位数乘一位数 长方形和正方形的周长和面积 分数的初步认识 除数是一位数的除法 复式统计表
+ 两位数乘两位数
+ 小数的初步认识
+  四年级  大数的认识 角的度量 三位数乘两位数 除数是两位数的除法 条形统计图 四则运算 运算定律 小数的意义和性质 三角形
+ 小数的加法和减法
+ 图形的运动（二） 平均数与条形统计图  五年级  小数乘法 小数除法 简易方程 多边形的面积 因数与倍数 长方体和正方体 分数的意义和性质 分数的加法和减法 折线统计图
+                  <a href="https://nocb.github.io/page/kidmath/" class="post-read-more">[阅读全文]</a>
                 
               </div>
 
@@ -467,66 +438,11 @@ autocomplete('#aa-search-input',
           
         </div>
         
-          <ul class="pager main-pager">
-            
-            
-              <li class="next">
-                <a href="https://nocb.github.io/page/page/2">下一页 &rarr;</a>
-              </li>
-            
-          </ul>
-        
       </div>
     <div align="center" class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
 
-<ul class="pagination">
-    
-    <li class="page-item">
-        <a href="https://nocb.github.io/page/" class="page-link" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
-    </li>
-    
-    <li class="page-item disabled">
-    <a  class="page-link" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
-    </li>
-    
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item active"><a class="page-link" href="https://nocb.github.io/page/">1</a></li>
-    
-    
-    
-    
-    
-    
-        
-        
-    
-    
-    <li class="page-item"><a class="page-link" href="https://nocb.github.io/page/page/2/">2</a></li>
-    
-    
-    <li class="page-item">
-    <a href="https://nocb.github.io/page/page/2/" class="page-link" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
-    </li>
-    
-    <li class="page-item">
-        <a href="https://nocb.github.io/page/page/2/" class="page-link" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
-    </li>
-    
-</ul>
 
-
-        
-        
         
         
         
@@ -555,7 +471,7 @@ autocomplete('#aa-search-input',
         &copy;2017-2018
           
           &nbsp;&bull;&nbsp;
-          October 9,2019
+          October 13,2019
           updated
           
             &nbsp;&bull;&nbsp;
