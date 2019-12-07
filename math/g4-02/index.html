@@ -216,13 +216,19 @@ if (!doNotTrack) {
 		<a href="https://nocb.github.io/page/kidmath">数学课目录</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7">一年级</a>
+		<a href="https://nocb.github.io/page/math1">一年级</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E4%BA%8C%E5%B9%B4%E7%BA%A7">二年级</a>
+		<a href="https://nocb.github.io/page/math2">二年级</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E4%B8%89%E5%B9%B4%E7%BA%A7">三年级</a>
+		<a href="https://nocb.github.io/page/math3">三年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math4">四年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math5">五年级</a>
                 
               </div>
             </li>
@@ -359,26 +365,8 @@ autocomplete('#aa-search-input',
 
 
   
-    <div id="header-big-imgs" data-num-img=1 data-img-src-1="http://pic.88dkl.com/photo-coding.jpg" data-img-desc-1="生活总是多姿多彩"></div>
-  
 
-  <header class="header-section has-img">
-    
-      <div class="intro-header big-img">
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="post-heading">
-                <h1>四年级-角的度量</h1>
-                  
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="img-desc" style="display: inline;"></span>
-      </div>
+  <header class="header-section ">
     
 
     <div class="intro-header no-img">
@@ -406,18 +394,7 @@ autocomplete('#aa-search-input',
             
             
             
-<div>
-    <section id="datecount">
-        <h4 id="date"> 2019年04月02日</h4>
-    </section>
 
-    <h5 id="tags">Tags: 
-        
-        <a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6/">数学</a> &nbsp;
-        
-        <a href="https://nocb.github.io/tags/%E5%9B%9B%E5%B9%B4%E7%BA%A7/">四年级</a> &nbsp;
-    </h5>
-</div>
 
             
             <article role="main" class="blog-post" itemprop="articleBody" id="content">
@@ -676,41 +653,6 @@ window.addEventListener('load', () =>{
 
 
 
-<script type="text/javascript">
- 
-var a_idx = 0;
-jQuery(document).ready(function($) {
-    $("body").click(function(e) {
-        var a = new Array("少儿数学", "信息学奥赛", "少儿编程", "少儿教育", "NOI","趣味编程", "Python","开发逻辑思维", "助力小初升");
-        var $i = $("<span />").text(a[a_idx]);
-        a_idx = (a_idx + 1) % a.length;
-        var x = e.pageX,
-        y = e.pageY;
-        function randomColor() {
-          var flakeColor = new Array("#FFDA65", "#00BFFF", "#BA55D3", "#FFA07A", "#87CEEB", "#FFB6C1");
-          var snowColor = flakeColor[Math.floor(flakeColor.length * Math.random())];
-          return snowColor;
-        }
-        $i.css({
-            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
-            "top": y - 20,
-            "left": x,
-            "position": "absolute",
-            "font-weight": "bold",
-            "color": randomColor()
-        });
-        $("body").append($i);
-        $i.animate({
-            "top": y - 180,
-            "opacity": 0
-        },
-        1500,
-        function() {
-            $i.remove();
-        });
-    });
-});
-</script>
 
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/lightbox.js"></script>

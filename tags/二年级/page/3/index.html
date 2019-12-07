@@ -207,13 +207,19 @@ if (!doNotTrack) {
 		<a href="https://nocb.github.io/page/kidmath">数学课目录</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E4%B8%80%E5%B9%B4%E7%BA%A7">一年级</a>
+		<a href="https://nocb.github.io/page/math1">一年级</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E4%BA%8C%E5%B9%B4%E7%BA%A7">二年级</a>
+		<a href="https://nocb.github.io/page/math2">二年级</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E4%B8%89%E5%B9%B4%E7%BA%A7">三年级</a>
+		<a href="https://nocb.github.io/page/math3">三年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math4">四年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math5">五年级</a>
                 
               </div>
             </li>
@@ -601,41 +607,6 @@ window.addEventListener('load', () =>{
 
 
 
-<script type="text/javascript">
- 
-var a_idx = 0;
-jQuery(document).ready(function($) {
-    $("body").click(function(e) {
-        var a = new Array("少儿数学", "信息学奥赛", "少儿编程", "少儿教育", "NOI","趣味编程", "Python","开发逻辑思维", "助力小初升");
-        var $i = $("<span />").text(a[a_idx]);
-        a_idx = (a_idx + 1) % a.length;
-        var x = e.pageX,
-        y = e.pageY;
-        function randomColor() {
-          var flakeColor = new Array("#FFDA65", "#00BFFF", "#BA55D3", "#FFA07A", "#87CEEB", "#FFB6C1");
-          var snowColor = flakeColor[Math.floor(flakeColor.length * Math.random())];
-          return snowColor;
-        }
-        $i.css({
-            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
-            "top": y - 20,
-            "left": x,
-            "position": "absolute",
-            "font-weight": "bold",
-            "color": randomColor()
-        });
-        $("body").append($i);
-        $i.animate({
-            "top": y - 180,
-            "opacity": 0
-        },
-        1500,
-        function() {
-            $i.remove();
-        });
-    });
-});
-</script>
 
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/lightbox.js"></script>

@@ -11,9 +11,9 @@
   <meta property="og:title" content="Pages" />
   <meta name="twitter:title" content="Pages" />
   <meta name="author" content="{Description { .Site.Author.name }}"/>
-  <link href='https://nocb.github.io/img/avatar.png' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://nocb.github.io/img/avatar.png" />
-  <meta name="twitter:image" content="https://nocb.github.io/img/avatar.png" />
+  <link href='http://pic.88dkl.com/sys_avatar.png' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="http://pic.88dkl.com/sys_avatar.png" />
+  <meta name="twitter:image" content="http://pic.88dkl.com/sys_avatar.png" />
   <meta name="twitter:card" content="summary" />
   <meta property="og:url" content="https://nocb.github.io/page/" />
   <meta property="og:type" content="website" />
@@ -31,24 +31,17 @@
 
   
   
-  <link rel="stylesheet" href="https://nocb.github.io/css/main.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/my.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/pace.css" />
-  <link rel="stylesheet" href="https://cdn.plyr.io/3.4.7/plyr.css">
-  <link rel="stylesheet" href="https://nocb.github.io/css/lightgallery.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/baguetteBox.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/search.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/reward.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/share.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/css/my.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/css/pace.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/css/search.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/css/reward.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/css/share.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/pygment_highlights.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/highlight.min.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/toc.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/css/lightbox.css" />
-  <link rel="stylesheet" href="https://nocb.github.io/live2d/css/live2d.css" />
-  
-  <link href="https://nocb.github.io/css/video-js.css" rel="stylesheet">
+
+
 
 
 <script>
@@ -62,7 +55,6 @@
 </script>
 
 
-<link rel="stylesheet" href="https://nocb.github.io/css/prism.css" />
 
 
 
@@ -71,12 +63,12 @@
 
 
 
-<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 
 
 
 
-<script src="https://nocb.github.io/js/instantclick.min.js" data-no-instant></script>
+
+<script src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/instantclick.min.js" data-no-instant></script>
    <script data-no-instant>
    InstantClick.on('change', function(isInitialLoad) {
      if (isInitialLoad === false) {
@@ -96,14 +88,32 @@
 
 
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/layui/layui.all.js"></script>
+
+<script>
+    var urlStart='<video width="100%" height="100%"  controls controlsList="nodownload"  preload  poster="http://pic.88dkl.com/about_web_long.png" ><source src="http://pic.88dkl.com/video/';
+    var urlEnd='" type="video/mp4"></source></video>';
+
+    function playVideo(url,vname){
+        layer.open({
+            type: 1,
+            closeBtn:2,  
+            resize:false,  
+            scrollbar:false,
+            title: vname,
+            shadeClose: false, 
+            content: urlStart+url+urlEnd,
+        });
+    }
+</script>
 
 
 
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+<link href="https://cdn.bootcss.com/photoswipe/4.1.1/default-skin/default-skin.min.css" rel="stylesheet">
+
 
 
 
@@ -151,6 +161,7 @@
     </div>
 </div>
 
+
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -188,10 +199,29 @@ if (!doNotTrack) {
           
         
           
-            <li>
-		    <a title="课程" href="https://youdianzhishi.com/?utm_source=blog&amp;utm_campaign=referral&amp;utm_medium=topmenu">课程</a>
-              
-              
+            <li class="navlinks-container">
+		    <a class="navlinks-parent" href="javascript:void(0)">少儿数学</a>
+              <div class="navlinks-children">
+                
+                
+		<a href="https://nocb.github.io/page/kidmath">数学课目录</a>
+                
+                
+		<a href="https://nocb.github.io/page/math1">一年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math2">二年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math3">三年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math4">四年级</a>
+                
+                
+		<a href="https://nocb.github.io/page/math5">五年级</a>
+                
+              </div>
             </li>
           
         
@@ -201,13 +231,10 @@ if (!doNotTrack) {
               <div class="navlinks-children">
                 
                 
-		<a href="https://nocb.github.io/archives">教育理念</a>
-                
-                
 		<a href="https://nocb.github.io/tags/%E6%95%B0%E5%AD%A6">少儿数学</a>
                 
                 
-		<a href="https://nocb.github.io/tags/%E7%BC%96%E7%A8%8B">少儿编程</a>
+		<a href="https://nocb.github.io/tags/%E5%B0%91%E5%84%BF%E7%BC%96%E7%A8%8B">少儿编程</a>
                 
                 
 		<a href="https://nocb.github.io/tags/%E5%B7%A5%E5%85%B7">学习工具</a>
@@ -253,7 +280,7 @@ if (!doNotTrack) {
       <div class="avatar-img-border">
         
           <a title="授人以渔" href="https://nocb.github.io/">
-            <img class="avatar-img" src="https://nocb.github.io/img/avatar.png" alt="授人以渔" />
+            <img class="avatar-img" src="http://pic.88dkl.com/sys_avatar.png" alt="授人以渔" />
           </a>
         
       </div>
@@ -271,7 +298,7 @@ if (!doNotTrack) {
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Search yangcs.net</h4>
+          <h4 class="modal-title">查找 </h4>
         </div>
         <div class="modal-body">
             
@@ -310,7 +337,7 @@ autocomplete('#aa-search-input',
 
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
         </div>
       </div>
     </div>
@@ -341,32 +368,134 @@ autocomplete('#aa-search-input',
         <div class="posts-list">
           
             <article class="post-preview">
-              <a href="https://nocb.github.io/page/friend/">
-                <h2 class="post-title">友情链接</h2>
+              <a href="https://nocb.github.io/page/math4/">
+                <h2 class="post-title">小学数学课程列表</h2>
 
                 
               </a>
 
               <p class="post-meta">
-                发表于 January 1, 0001
+                发表于 January 26, 2019
               </p>
               <div class="post-entry">
                 
                   
 
-<h2 id="阳明的一些朋友">阳明的一些朋友</h2>
+<h3 id="四年级-课程目录">四年级-课程目录</h3>
 
 <ul>
-<li><a href="http://lijinxiu.com?utm_source=qikqiak">JACK LEE</a></li>
-<li><a href="https://www.yangcs.net?utm_source=qikqiak">Ryan Yang</a></li>
-<li><a href="https://jimmysong.io?utm_source=qikqiak">Jimmy Song</a></li>
-<li><a href="https://imroc.io?utm_source=qikqiak">Roc</a></li>
-<li><a href="http://www.recall704.com?utm_source=qikqiak">RECALL&rsquo;s Blog</a></li>
-<li><a href="http://www.devopser.org?utm_source=qikqiak">devopser</a></li>
-<li><a href="https://sealyun.com?utm_source=qikqiak">sealyun</a></li>
-<li><a href="https://wujunze.com?utm_source=qikqiak">wujunze</a></li>
-<li><a href="https://www.wanglibing.com?utm_source=qikqiak">(王丽兵)开发笔记</a></li>
+<li><a href="https://nocb.github.io/math/g4-01/">大数的认识</a></li>
+<li><a href="https://nocb.github.io/math/g4-02/">角的度量</a></li>
+<li><a href="https://nocb.github.io/math/g4-03/">三位数乘两位数</a></li>
+<li><a href="https://nocb.github.io/math/g4-04/">除数是两位数的除法</a></li>
+<li><a href="https://nocb.github.io/math/g4-05/">条形统计图</a></li>
+<li><a href="https://nocb.github.io/math/g4-06/">四则运算</a></li>
+<li><a href="https://nocb.github.io/math/g4-07/">运算定律</a></li>
+<li><a href="https://nocb.github.io/math/g4-08/">小数的意义和性质</a></li>
+<li><a href="https://nocb.github.io/math/g4-09/">三角形</a><br /></li>
+<li><a href="https://nocb.github.io/math/g4-10/">小数的加法和减法</a><br /></li>
+<li><a href="https://nocb.github.io/math/g4-11/">图形的运动（二）</a></li>
+<li><a href="https://nocb.github.io/math/g4-12/">平均数与条形统计图</a></li>
 </ul>
+
+<h3 id="为什么要提供这套小学数学教程">为什么要提供这套小学数学教程：</h3>
+
+<ul>
+<li>帮助孩子学习数学，开发智力，建立逻辑思维。</li>
+<li>如果您需要让孩子<strong>提前学习</strong>， 幼小衔接，(或赢在起跑线上) ，或者作为学校课堂的预习。</li>
+<li>您的孩子秉性聪慧，对数学极感兴趣，能力很好，<strong>想多学，自学</strong>，甚至跳级的想法。</li>
+<li>也许孩子对学校课堂上的知识点理解不够，不深刻，需要<strong>重复学习</strong>，或因请假需要补习。</li>
+<li>我是学渣家长，怎么教孩子数学？<strong>小学数学虽然都会，但并不适合教授孩子</strong>。孩子的认知和大人差距很大，我们在讲解一个知识时，总会省略一些重要的环节（自认为显而易见），比如一个妈妈看到滑梯上的数字6教孩子识数，说:“把9翻过来,就是6 ”.
+孩子能懂么？大人并不了解孩子的想法、思维。</li>
+<li>教育是一个重要的事业，是需要<strong>专业知识</strong>技能的。否则为什么有师范学院，老师必须要有教师资格证，还需要懂儿童心理学等等。</li>
+<li>本站的少儿数学视频来自  <a href="https://zh.khanacademy.org">可汗学院</a> ，因其网络不好，视频常常加载不出，因此转载在本站,方便国内的孩子学习。
+可汗学院里的<strong>课程质量很高</strong>，可汗采用<a href="https://baike.baidu.com/item/%E5%8F%8D%E8%BD%AC%E6%95%99%E8%82%B2/6254985">反转教育</a>(翻转课堂)模式，学生们在家里观看优秀视频自学，老师则在课堂上答疑解惑，辅导学生们完成功课。“我们的使命是让所有人享有免费的世界一流教育”。</li>
+<li>课程采用“<strong>人教版小学数学</strong>”教程，通俗易懂的视频授课方式。</li>
+<li>后期我们还会提供对应的<strong>练习习题</strong>。</li>
+</ul>
+
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://nocb.github.io/page/math5/">
+                <h2 class="post-title">小学数学课程列表</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                发表于 January 26, 2019
+              </p>
+              <div class="post-entry">
+                
+                  
+
+<h3 id="五年级-课程目录">五年级-课程目录</h3>
+
+<ul>
+<li><a href="https://nocb.github.io/math/g5-01/">小数乘法</a></li>
+<li><a href="https://nocb.github.io/math/g5-02/">小数除法</a></li>
+<li><a href="https://nocb.github.io/math/g5-03/">简易方程</a></li>
+<li><a href="https://nocb.github.io/math/g5-04/">多边形的面积</a></li>
+<li><a href="https://nocb.github.io/math/g5-05/">因数与倍数</a></li>
+<li><a href="https://nocb.github.io/math/g5-06/">长方体和正方体</a></li>
+<li><a href="https://nocb.github.io/math/g5-07/">分数的意义和性质</a></li>
+<li><a href="https://nocb.github.io/math/g5-08/">分数的加法和减法</a></li>
+<li><a href="https://nocb.github.io/math/g5-09/">折线统计图</a><br /></li>
+</ul>
+
+<h3 id="为什么要提供这套小学数学教程">为什么要提供这套小学数学教程：</h3>
+
+<ul>
+<li>帮助孩子学习数学，开发智力，建立逻辑思维。</li>
+<li>如果您需要让孩子<strong>提前学习</strong>， 幼小衔接，(或赢在起跑线上) ，或者作为学校课堂的预习。</li>
+<li>您的孩子秉性聪慧，对数学极感兴趣，能力很好，<strong>想多学，自学</strong>，甚至跳级的想法。</li>
+<li>也许孩子对学校课堂上的知识点理解不够，不深刻，需要<strong>重复学习</strong>，或因请假需要补习。</li>
+<li>我是学渣家长，怎么教孩子数学？<strong>小学数学虽然都会，但并不适合教授孩子</strong>。孩子的认知和大人差距很大，我们在讲解一个知识时，总会省略一些重要的环节（自认为显而易见），比如一个妈妈看到滑梯上的数字6教孩子识数，说:“把9翻过来,就是6 ”.
+孩子能懂么？大人并不了解孩子的想法、思维。</li>
+<li>教育是一个重要的事业，是需要<strong>专业知识</strong>技能的。否则为什么有师范学院，老师必须要有教师资格证，还需要懂儿童心理学等等。</li>
+<li>本站的少儿数学视频来自  <a href="https://zh.khanacademy.org">可汗学院</a> ，因其网络不好，视频常常加载不出，因此转载在本站,方便国内的孩子学习。
+可汗学院里的<strong>课程质量很高</strong>，可汗采用<a href="https://baike.baidu.com/item/%E5%8F%8D%E8%BD%AC%E6%95%99%E8%82%B2/6254985">反转教育</a>(翻转课堂)模式，学生们在家里观看优秀视频自学，老师则在课堂上答疑解惑，辅导学生们完成功课。“我们的使命是让所有人享有免费的世界一流教育”。</li>
+<li>课程采用“<strong>人教版小学数学</strong>”教程，通俗易懂的视频授课方式。</li>
+<li>后期我们还会提供对应的<strong>练习习题</strong>。</li>
+</ul>
+
+                
+              </div>
+
+              
+
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://nocb.github.io/page/about/">
+                <h2 class="post-title">关于本站</h2>
+
+                
+                  <h3 class="post-subtitle">
+                    关注 少儿教育、数理思维、少儿编程
+                  </h3>
+                
+              </a>
+
+              <p class="post-meta">
+                发表于 January 1, 2019
+              </p>
+              <div class="post-entry">
+                
+                  <p>每个家长都非常重视孩子的成长和教育，学会学习是小学阶段的基本任务，通俗点，就是学会<code>自己学习</code>。
+    在这个知识大爆炸的时代，自学能力尤为重要。 成绩好的学生，绝对是自学能力强的。
+    当今社会，家长们把孩子送到学校，学校给孩子减负，家长再报各种课外培训班，
+    但这些培训班，良莠不齐，要么价格太高，要么授课质量一般，上课地方远，时间还经常冲突。</br>
+    本网站关注少儿教育的两个方面，为那些苦于寻求好的教学方式，又浪费较多金钱的家长而建:</br>
+    1.讲解学习<code>思维方式</code>，整理<code>学习方法</code> ，培养自我学习能力。</br>
+    2.提供<code>小学数学、少儿编程</code>方向的课程和研究 。</br>
+    十年树木，百年树人！</br></p>
 
                 
               </div>
@@ -437,6 +566,8 @@ autocomplete('#aa-search-input',
 
         
         
+        
+        
       </div>
     </div>
   </div>
@@ -462,7 +593,7 @@ autocomplete('#aa-search-input',
         &copy;2017-2018
           
           &nbsp;&bull;&nbsp;
-          October 9,2019
+          October 13,2019
           updated
           
             &nbsp;&bull;&nbsp;
@@ -473,7 +604,6 @@ autocomplete('#aa-search-input',
         
         <p class="credits theme-by text-muted">
           由 <a href="http://gohugo.io" target="_blank">Hugo v0.58.3</a> 强力驱动 &nbsp;&bull;&nbsp; 主题 <a href="https://github.com/yangchuansheng/ryan" target="_blank">Ryan</a> 移植自 <a href="https://github.com/rootsongjc/beautifulhugo" target="_blank">Beautiful Hugo</a>
-          
           <center><section class="credits theme-by text-muted">
     <span class="footer__copyright">
     <div>
@@ -510,33 +640,30 @@ autocomplete('#aa-search-input',
 
 
 
-<script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js//bootstrap.min.js"></script>
+<script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js/bootstrap.min.js"></script>
 <script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js/photoswipe-ui-default.min.js"></script>
 <script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js/photoswipe.min.js"></script>
 <script src="https://res.cloudinary.com/no/raw/upload/v1570956092/sys/js/auto-render.min.js"></script>
 
-<script src="https://nocb.github.io/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/main.js"></script>
 
-<script src="https://nocb.github.io/js/prism.js?t=123"></script>
-<script src="https://nocb.github.io/js/highlight.min.js"></script>
-<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/katex.min.js"></script>
-<script src="https://nocb.github.io/js/reward.js"></script>
-<script src="https://nocb.github.io/js/canvas_ribbon.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/reward.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/canvas_ribbon.js"></script>
 <script> renderMathInElement(document.body); </script>
 
-<script src="https://nocb.github.io/js/baguetteBox.js"></script>
-<script> baguetteBox.run('.gallery');</script>
 
 
 
 
 
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
-<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>
-<script type="text/javascript" src="https://nocb.github.io/js/quicklink.umd.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/quicklink.umd.js"></script>
 <script>
 window.addEventListener('load', () =>{
    quicklink();
@@ -545,44 +672,9 @@ window.addEventListener('load', () =>{
 
 
 
-<script type="text/javascript">
- 
-var a_idx = 0;
-jQuery(document).ready(function($) {
-    $("body").click(function(e) {
-        var a = new Array("少儿数学", "信息学奥赛", "少儿编程", "少儿教育", "NOI","趣味编程", "Python","开发逻辑思维", "助力小初升");
-        var $i = $("<span />").text(a[a_idx]);
-        a_idx = (a_idx + 1) % a.length;
-        var x = e.pageX,
-        y = e.pageY;
-        function randomColor() {
-          var flakeColor = new Array("#FFDA65", "#00BFFF", "#BA55D3", "#FFA07A", "#87CEEB", "#FFB6C1");
-          var snowColor = flakeColor[Math.floor(flakeColor.length * Math.random())];
-          return snowColor;
-        }
-        $i.css({
-            "z-index": 999999999999999999999999999999999999999999999999999999999999999999999,
-            "top": y - 20,
-            "left": x,
-            "position": "absolute",
-            "font-weight": "bold",
-            "color": randomColor()
-        });
-        $("body").append($i);
-        $i.animate({
-            "top": y - 180,
-            "opacity": 0
-        },
-        1500,
-        function() {
-            $i.remove();
-        });
-    });
-});
-</script>
 
 
-<script type="text/javascript" src="https://nocb.github.io/js/lightbox.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/nocb/nocb.github.io@master/js/lightbox.js"></script>
 
 
 
@@ -594,8 +686,6 @@ jQuery(document).ready(function($) {
 
 
 
-<script src="https://cdn.plyr.io/3.4.7/plyr.js"></script>
-<script>const player = new Plyr('#player');</script>
 
 
 
